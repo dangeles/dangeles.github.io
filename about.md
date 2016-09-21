@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-<!-- ![photo of David Angeles-Albores](https://github.com/dangeles/dangeles.github.io/blob/master/me.jpg) -->
+![photo of David Angeles-Albores](dangeles.github.io/me.jpg)
 
 Hi, welcome to my website! I'm currently a Ph.D. student working with Paul Sternberg at Caltech. My main interests involve
 
