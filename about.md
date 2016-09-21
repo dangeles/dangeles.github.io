@@ -3,13 +3,16 @@ layout: page
 title: About
 permalink: /about/
 ---
+![photo of David Angeles-Albores](me.jpg)
 
-Some information about you!
+Hi, welcome to my website! I'm currently a Ph.D. student working with Paul Sternberg at Caltech. My main interests involve
+ * Evolution
+ * Transcriptomics
+ * Genetics
+ * Tool Development for the Worm Community
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I'm a bench biologist who also happens to do computer work. If you need help with anything, don't hesitate to contact me! I'm happy to help
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[dangeles@caltech.edu](mailto:dangeles@caltech.edu)
