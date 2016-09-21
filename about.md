@@ -12,7 +12,7 @@ Hi, welcome to my website! I'm currently a Ph.D. student working with Paul Stern
  * Genetics
  * Tool Development for the Worm Community
 
-[Click here for my CV](https://dangeles.github.io/cv.pdf)
+[Click here for my CV](../cv.pdf)
 
 I'm a bench biologist who also happens to do computer work. If you need help with anything, don't hesitate to contact me! I'm happy to help
 
