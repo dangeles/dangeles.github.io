@@ -10,7 +10,7 @@ warrant writing them down in a screen. Who knows, someone might even read them.
 First things first: What the heck 2016?
 
 2016 was a bad year for statisticians. It was a year we dislike thouroughly: An outlier.
-Usually, what scientists and statisticians like to do with outliers is nothing. We like to
+Usually, what scientists and statisticians like to do with outliers is to ignore them. We like to
 take them, look at them for a second and then say, repeat the experiment. Or, if you can't do that,
 use a robust method to make it *less informative*.
 
@@ -29,7 +29,7 @@ singularly biased path, from which we derive certain rules that we treat as fact
 The fact that two sides of the same coin, a mathematical formulation of a situation and the experience of that same situation can feel so different, as particularly interesting. An example that
 many of us have been thinking about: Why is it that, at a time of statistical improvement in wages and jobs,
 so many people seem angry at the governments that has brought about those improvements? Why would people vote
-against their statistical success in favor of approaches that do not seem likely to bring about further improvement
+against their statistical success in favor of approaches that are scant on details on how to bring about further improvement
 in the variables that govern the statistical framework?
 
 Experience matters. Studying people (and biology) exclusively through the lens of a simple number of variables
