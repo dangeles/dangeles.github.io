@@ -5,16 +5,11 @@ permalink: /about/
 ---
 <img id="photo_of_me_with_others" src="https://dangeles.github.io/images/us.jpg" width="400" class="rotate180">
 
-Hi, welcome to my website! I'm currently a Ph.D. student working with Paul Sternberg at Caltech. My main interests involve
+Welcome! I'm currently a PhD student in the Biochemistry and Molecular Biophysics
+program at the California Institute of Technology, where I work with Paul Sternberg.
+I'm a geneticist with an interest in mathematics and physical biology.
 
- * Evolution
- * Transcriptomics
- * Genetics
- * Tool Development for the Worm Community
-
-[Click here for my CV](https://dangeles.github.io/cv.pdf)
-
-I'm a bench biologist who also happens to do computer work. If you need help with anything, don't hesitate to contact me! I'm happy to help
+[CV](https://dangeles.github.io/cv.pdf)
 
 ### Contact me
 
