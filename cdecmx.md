@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CdeCMx
-permalink: /cdcmx/
+permalink: /cdc.html
 ---
 
 ### What is *Clubes de Ciencia (CdeC)
