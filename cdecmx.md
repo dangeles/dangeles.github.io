@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CdeCMx
+title: *Clubes de Ciencia*
 permalink: /cdc.html
 ---
 
@@ -52,12 +52,12 @@ for no more than 20 minutes before we were (quite literally) swimming in
 planarians!!!!
 
 <table class="image">
-<caption align="bottom">Alejandro looks at wild planarians</caption>
+<caption align="bottom">Alejandro looks at wild planarians.</caption>
 <tr><td><img id="Alejandro examines wild planarians" src="https://dangeles.github.io/images/clubes_alex.jpg" width="300"></td></tr>
 </table>
 
 <table class="image">
-<caption align="bottom">Our students found the planarians!</caption>
+<caption align="bottom">Our students out in the field.</caption>
 <tr><td><img id="Students in the field!" src="https://dangeles.github.io/images/estudiantes_en_campo.jpg" width="300"></td></tr>
 </table>
 
@@ -75,7 +75,7 @@ about this beautiful animal, known henceforth as *Dugesia guanajuatensis*.
 </table>
 
 <table class="image">
-<caption align="bottom"><I>Dugesia guanajuatensis</I></caption>
+<caption align="bottom"><I>Dugesia guanajuatensis</I>.</caption>
 <tr><td><img id="D. guanajuatensis!" src="https://dangeles.github.io/images/d_guanajuatensis.JPG" width="300"></td></tr>
 </table>
 
