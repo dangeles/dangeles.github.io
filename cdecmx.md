@@ -4,8 +4,12 @@ title: *Clubes de Ciencia*
 permalink: /cdc.html
 ---
 
-* TOC:
+# Contents
+{:.no_toc}
+
+* Will be replaced with the ToC, excluding the "Contents" header
 {:toc}
+
 
 
 ### What is [*Clubes de Ciencia (CdeC)*](https://www.clubesdeciencia.mx/)?
