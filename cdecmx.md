@@ -83,7 +83,12 @@ previously described! Thanks to his lab, we now have a genome and a transcriptom
 Hopefully, at some point Alejandro and his team will get around to writing a paper
 about this beautiful animal, known henceforth as *Dugesia guanajuatensis*.
 
-<table class="image">
+
+![Alejandro and the students talk](https://dangeles.github.io/images/clubes_alexyestudiantes.jpg)| ![D. guanajuatensis](https://dangeles.github.io/images/d_guanajuatensis.JPG)
+:-:|:-:
+Alejandro and the students talk about their field results.| *Dugesia guanajuatensis*
+
+<!-- <table class="image">
 <caption align="bottom">Alejandro and the students talk about their field results.</caption>
 <tr><td><img id="Alejandro and the students talk" src="https://dangeles.github.io/images/clubes_alexyestudiantes.jpg" width="300"></td></tr>
 </table>
@@ -91,7 +96,7 @@ about this beautiful animal, known henceforth as *Dugesia guanajuatensis*.
 <table class="image">
 <caption align="bottom"><I>Dugesia guanajuatensis</I>.</caption>
 <tr><td><img id="D. guanajuatensis!" src="https://dangeles.github.io/images/d_guanajuatensis.JPG" width="300"></td></tr>
-</table>
+</table> -->
 
 
 
