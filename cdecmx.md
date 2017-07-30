@@ -46,7 +46,7 @@ for the students to cut up into tiny little pieces, which the students did in
 short order. See below!
 <!-- Place images in a captioned table below: -->
 <table class="image">
-<caption align="bottom">Jose and Isra, <I>Clubes</I> students, in the lab.</caption>
+<caption align="bottom">José and Isra, <I>Clubes</I> students, in the lab.</caption>
 <tr><td><img id="photo_of_students" src="https://dangeles.github.io/images/clubes_estudiantes.jpg" width="300"></td></tr>
 </table>
 
