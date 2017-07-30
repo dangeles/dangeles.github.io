@@ -42,6 +42,10 @@ short order. See below!
 <caption align="bottom">Our students had a chance to cut up planarians!</caption>
 <tr><td><img id="photo_of_students" src="https://dangeles.github.io/images/clubes_estudiantes.jpg" width="300"></td></tr>
 </table>
+<!-- Fix caption size -->
+.image caption { font-size: 80%;
+                 font-family: 'Helvetica', 'Arial', sans-serif;
+                 text-align: center; }
 
 
 ### Embryology, Woods Hole-style, in Baja California, México
