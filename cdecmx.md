@@ -30,8 +30,11 @@ would like to share these experiences and ideas with you in the hopes that maybe
 one day you will also apply!
 
 ## Foldscopes come to *Clubes*
-Last year at ASCB 2016, I ambushed Manu Prakash and told him all about Clubes.
-He loved the idea, and together with Maxwell Coyle and Honomi Ijima we schemed
+Last year at ASCB 2016, I ambushed
+[Manu Prakash](http://web.stanford.edu/group/prakash-lab), inventor of the 
+[Foldscope](https://www.foldscope.com), and told him all about Clubes. He loved
+the idea, and together with
+[Maxwell Coyle and Honomi Ijima](https://www.foldscope.com/team/) we schemed
 a plan to get Foldscopes to Clubes. Earlier this year, the team sent us more
 than 100 Foldscopes and provided training for 5 instructors who will be giving
 workshops this year! I'm looking forward to hearing what the students have to
