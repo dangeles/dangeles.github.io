@@ -31,7 +31,7 @@ one day you will also apply!
 
 ## Foldscopes come to *Clubes*
 Last year at ASCB 2016, I ambushed
-[Manu Prakash](http://web.stanford.edu/group/prakash-lab), inventor of the 
+[Manu Prakash](http://web.stanford.edu/group/prakash-lab), inventor of the
 [Foldscope](https://www.foldscope.com), and told him all about Clubes. He loved
 the idea, and together with
 [Maxwell Coyle and Honomi Ijima](https://www.foldscope.com/team/) we schemed
@@ -61,15 +61,19 @@ So, the following day the class set out to the dam. When we arrived, we hiked
 for no more than 20 minutes before we were (quite literally) swimming in
 planarians!!!!
 
-<table class="image">
+![Alejandro looks at wild planarians](https://dangeles.github.io/images/clubes_alex.jpg) |  ![Students in the field!](https://dangeles.github.io/images/estudiantes_en_campo.jpg)
+:-------------------------:|:-------------------------:
+Alejandro looks at wild planarians  |  Our students out in the field.
+
+<!-- <table class="image">
 <caption align="bottom">Alejandro looks at wild planarians.</caption>
 <tr><td><img id="Alejandro examines wild planarians" src="https://dangeles.github.io/images/clubes_alex.jpg" width="300"></td></tr>
 </table>
-
-<table class="image">
+ -->
+<!-- <table class="image">
 <caption align="bottom">Our students out in the field.</caption>
 <tr><td><img id="Students in the field!" src="https://dangeles.github.io/images/estudiantes_en_campo.jpg" width="300"></td></tr>
-</table>
+</table> -->
 
 After the fact, we took the planarians back to the lab, where we studied their
 morphology, movement, and regenerative abilities. After the course ended,
