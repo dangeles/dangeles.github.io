@@ -4,15 +4,14 @@ title: Clubes de Ciencia
 permalink: /cdc.html
 ---
 
-# Contents
+# Table of Contents
 {:.no_toc}
 
 * Will be replaced with the ToC, excluding the "Contents" header
 {:toc}
 
 
-
-### What is [*Clubes de Ciencia (CdeC)*](https://www.clubesdeciencia.mx/)?
+## What is [*Clubes de Ciencia (CdeC)*](https://www.clubesdeciencia.mx/)?
 
 *Clubes de Ciencia*, or Science Clubs, is an educational initiative led entirely
 by graduate students. It's very simple-once a year, graduate students from around
@@ -30,7 +29,7 @@ are some of the activities that I've had the pleasure of participating in. I
 would like to share these experiences and ideas with you in the hopes that maybe
 one day you will also apply!
 
-### Foldscopes come to *Clubes*
+## Foldscopes come to *Clubes*
 Last year at ASCB 2016, I ambushed Manu Prakash and told him all about Clubes.
 He loved the idea, and together with Maxwell Coyle and Honomi Ijima we schemed
 a plan to get Foldscopes to Clubes. Earlier this year, the team sent us more
@@ -39,7 +38,7 @@ workshops this year! I'm looking forward to hearing what the students have to
 say about this (I will update this after the workshops happen). Thanks Manu,
 Max, Honomi and the rest of the Foldscope community for this great opportunity!
 
-### Discovering a new planarian species in Guanajuato
+## Discovering a new planarian species in Guanajuato
 In 2016, I led a *Clubes de Ciencia* workshop in Guanajuato with HHMI Investigator
 Alejandro Sánchez-Alvarado. We talked about genetics in *C. elegans* and
 planarians. When Alejandro showed up, he brought with him a number of planarians
@@ -89,4 +88,4 @@ about this beautiful animal, known henceforth as *Dugesia guanajuatensis*.
 
 
 
-### Embryology, Woods Hole-style, in Baja California, México
+## Embryology, Woods Hole-style, in Baja California, México
