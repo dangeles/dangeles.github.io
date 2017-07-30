@@ -33,12 +33,15 @@ Max, Honomi and the rest of the Foldscope community for this great opportunity!
 
 ### Discovering a new planarian species in Guanajuato
 In 2016, I led a *Clubes de Ciencia* workshop in Guanajuato with HHMI Investigator
-Alejandro Sánchez-Alvarado. We talked genetics in *C. elegans* and planarians.
-When Alejandro showed up, he brought with him a number of planarians for the
-students to cut up into tiny little pieces, which the students did in short
-order. See below!
-<img id="photo_of_students" src="https://dangeles.github.io/images/clubes_estudiantes.jpg" width="300">
-
+Alejandro Sánchez-Alvarado. We talked about genetics in *C. elegans* and
+planarians. When Alejandro showed up, he brought with him a number of planarians
+for the students to cut up into tiny little pieces, which the students did in
+short order. See below!
+<!-- Place images in a captioned table below: -->
+<table class="image">
+<caption align="bottom">Our students had a chance to cut up planarians!</caption>
+<tr><td><img id="photo_of_students" src="https://dangeles.github.io/images/clubes_estudiantes.jpg" width="300"></td></tr>
+</table>
 
 
 ### Embryology, Woods Hole-style, in Baja California, México
