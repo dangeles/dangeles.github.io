@@ -32,7 +32,7 @@ one day you will also apply!
 ## Foldscopes come to *Clubes*
 Last year at ASCB 2016, I ambushed
 [Manu Prakash](http://web.stanford.edu/group/prakash-lab), inventor of the
-[Foldscope](https://www.foldscope.com), and told him all about Clubes. He loved
+[Foldscope](https://www.foldscope.com), and told him all about *Clubes*. He loved
 the idea, and together with
 [Maxwell Coyle and Honomi Ijima](https://www.foldscope.com/team/) we schemed
 a plan to get Foldscopes to Clubes. Earlier this year, the team sent us more
@@ -42,11 +42,13 @@ say about this (I will update this after the workshops happen). Thanks Manu,
 Max, Honomi and the rest of the Foldscope community for this great opportunity!
 
 ## Discovering a new planarian species in Guanajuato
-In 2016, I led a *Clubes de Ciencia* workshop in Guanajuato with HHMI Investigator
-Alejandro Sánchez-Alvarado. We talked about genetics in *C. elegans* and
-planarians. When Alejandro showed up, he brought with him a number of planarians
-for the students to cut up into tiny little pieces, which the students did in
-short order. See below!
+In 2016, I led a *Clubes de Ciencia* workshop in Guanajuato along with HHMI
+Investigator
+[Alejandro Sánchez-Alvarado](http://www.hhmi.org/scientists/alejandro-sanchez-alvarado).
+We talked about genetics in *C. elegans* and planarians. When Alejandro showed
+up, he brought with him a number of planarians for the students to cut up into
+tiny little pieces, which the students did in short order. See below!
+
 <!-- Place images in a captioned table below: -->
 <table class="image">
 <caption align="bottom">José and Isra, <I>Clubes</I> students, in the lab.</caption>
@@ -61,7 +63,7 @@ So, the following day the class set out to the dam. When we arrived, we hiked
 for no more than 20 minutes before we were (quite literally) swimming in
 planarians!!!!
 
-![Alejandro looks at wild planarians](https://dangeles.github.io/images/clubes_alex.jpg) |  ![Students in the field!](https://dangeles.github.io/images/estudiantes_en_campo.jpg)
+![Alejandro looks at wild planarians](https://dangeles.github.io/images/clubes_alex.jpg =300) |  ![Students in the field!](https://dangeles.github.io/images/estudiantes_en_campo.jpg =300)
 :-------------------------:|:-------------------------:
 Alejandro looks at wild planarians  |  Our students out in the field.
 
@@ -84,7 +86,7 @@ Hopefully, at some point Alejandro and his team will get around to writing a pap
 about this beautiful animal, known henceforth as *Dugesia guanajuatensis*.
 
 
-![Alejandro and the students talk](https://dangeles.github.io/images/clubes_alexyestudiantes.jpg)| ![D. guanajuatensis](https://dangeles.github.io/images/d_guanajuatensis.JPG)
+![Alejandro and the students talk](https://dangeles.github.io/images/clubes_alexyestudiantes.jpg =300)| ![D. guanajuatensis](https://dangeles.github.io/images/d_guanajuatensis.JPG =300)
 :-:|:-:
 Alejandro and the students talk about their field results.| *Dugesia guanajuatensis*
 
