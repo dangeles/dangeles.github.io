@@ -35,7 +35,7 @@ Last year at ASCB 2016, I ambushed
 [Foldscope](https://www.foldscope.com), and told him all about *Clubes*. He loved
 the idea, and together with
 [Maxwell Coyle and Honomi Ijima](https://www.foldscope.com/team/) we schemed
-a plan to get Foldscopes to Clubes. Earlier this year, the team sent us more
+a plan to bring Foldscopes to Clubes. Earlier this year, the team sent us more
 than 100 Foldscopes and provided training for 5 instructors who will be giving
 workshops this year! I'm looking forward to hearing what the students have to
 say about this (I will update this after the workshops happen). Thanks Manu,
