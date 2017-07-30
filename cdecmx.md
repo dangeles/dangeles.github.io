@@ -63,7 +63,7 @@ So, the following day the class set out to the dam. When we arrived, we hiked
 for no more than 20 minutes before we were (quite literally) swimming in
 planarians!!!!
 
-![Alejandro looks at wild planarians](https://dangeles.github.io/images/clubes_alex.jpg =300) |  ![Students in the field!](https://dangeles.github.io/images/estudiantes_en_campo.jpg =300)
+![Alejandro looks at wild planarians](https://dangeles.github.io/images/clubes_alex.jpg =300x) |  ![Students in the field!](https://dangeles.github.io/images/estudiantes_en_campo.jpg =300x)
 :-------------------------:|:-------------------------:
 Alejandro looks at wild planarians  |  Our students out in the field.
 
@@ -86,7 +86,7 @@ Hopefully, at some point Alejandro and his team will get around to writing a pap
 about this beautiful animal, known henceforth as *Dugesia guanajuatensis*.
 
 
-![Alejandro and the students talk](https://dangeles.github.io/images/clubes_alexyestudiantes.jpg =300)| ![D. guanajuatensis](https://dangeles.github.io/images/d_guanajuatensis.JPG =300)
+![Alejandro and the students talk](https://dangeles.github.io/images/clubes_alexyestudiantes.jpg =300x)| ![D. guanajuatensis](https://dangeles.github.io/images/d_guanajuatensis.JPG =300x)
 :-:|:-:
 Alejandro and the students talk about their field results.| *Dugesia guanajuatensis*
 
