@@ -88,7 +88,7 @@ about this beautiful animal, known henceforth as *Dugesia guanajuatensis*.
 
 <img id="Alejandro and the students talk" src="https://dangeles.github.io/images/clubes_alexyestudiantes.jpg" width="300">| <img id="D. guanajuatensis!" src="https://dangeles.github.io/images/d_guanajuatensis.JPG" width="300">
 :-:|:-:
-Alejandro and the students talk about their field results.| *Dugesia guanajuatensis*
+Talking about field results.| *Dugesia guanajuatensis*
 
 <!-- <table class="image">
 <caption align="bottom">Alejandro and the students talk about their field results.</caption>
