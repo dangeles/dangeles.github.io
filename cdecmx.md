@@ -4,7 +4,7 @@ title: *Clubes de Ciencia*
 permalink: /cdc.html
 ---
 
-* auto-gen TOC:
+* TOC:
 {:toc}
 
 
