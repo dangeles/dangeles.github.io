@@ -42,10 +42,43 @@ short order. See below!
 <caption align="bottom">Our students had a chance to cut up planarians!</caption>
 <tr><td><img id="photo_of_students" src="https://dangeles.github.io/images/clubes_estudiantes.jpg" width="300"></td></tr>
 </table>
-<!-- Fix caption size -->
-.image caption { font-size: 80%;
-                 font-family: 'Helvetica', 'Arial', sans-serif;
-                 text-align: center; }
+
+One of the things Alejandro told me he was interested in doing was searching for
+undiscovered planarian species with our students. We asked the students to point
+us to places where there was good hiking and plenty of clean running water.
+Fernando, one of our students, mentioned a dam that had some amenable hiking.
+So, the following day the class set out to the dam. When we arrived, we hiked
+for no more than 20 minutes before we were (quite literally) swimming in
+planarians!!!!
+
+<table class="image">
+<caption align="bottom">Alejandro looks at wild planarians</caption>
+<tr><td><img id="Alejandro examines wild planarians" src="https://dangeles.github.io/images/clubes_alex.jpg" width="300"></td></tr>
+</table>
+
+<table class="image">
+<caption align="bottom">Our students found the planarians!</caption>
+<tr><td><img id="Students in the field!" src="https://dangeles.github.io/images/estudiantes_en_campo.jpg" width="300"></td></tr>
+</table>
+
+After the fact, we took the planarians back to the lab, where we studied their
+morphology, movement, and regenerative abilities. After the course ended,
+Alejandro took a small number of planarians back to his laboratory for further
+study. Months later, he confirmed our suspicions: This species has never been
+previously described! Thanks to his lab, we now have a genome and a transcriptome.
+Hopefully, at some point Alejandro and his team will get around to writing a paper
+about this beautiful animal, known henceforth as *Dugesia guanajuatensis*.
+
+<table class="image">
+<caption align="bottom">Alejandro and the students talk about their field results.</caption>
+<tr><td><img id="Alejandro and the students talk" src="https://dangeles.github.io/images/clubes_alexyestudiantes.jpg" width="300"></td></tr>
+</table>
+
+<table class="image">
+<caption align="bottom"><I>Dugesia guanajuatensis</I></caption>
+<tr><td><img id="D. guanajuatensis!" src="https://dangeles.github.io/images/d_guanajuatensis.jpg" width="300"></td></tr>
+</table>
+
 
 
 ### Embryology, Woods Hole-style, in Baja California, México
