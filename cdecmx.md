@@ -4,6 +4,10 @@ title: *Clubes de Ciencia*
 permalink: /cdc.html
 ---
 
+* auto-gen TOC:
+{:toc}
+
+
 ### What is [*Clubes de Ciencia (CdeC)*](https://www.clubesdeciencia.mx/)?
 
 *Clubes de Ciencia*, or Science Clubs, is an educational initiative led entirely
