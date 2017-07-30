@@ -76,7 +76,7 @@ about this beautiful animal, known henceforth as *Dugesia guanajuatensis*.
 
 <table class="image">
 <caption align="bottom"><I>Dugesia guanajuatensis</I></caption>
-<tr><td><img id="D. guanajuatensis!" src="https://dangeles.github.io/images/d_guanajuatensis.jpg" width="300"></td></tr>
+<tr><td><img id="D. guanajuatensis!" src="https://dangeles.github.io/images/d_guanajuatensis.JPG" width="300"></td></tr>
 </table>
 
 
