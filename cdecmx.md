@@ -1,14 +1,14 @@
 ---
 layout: page
-title: *Clubes de Ciencia*
+title: Clubes de Ciencia
 permalink: /cdc.html
 ---
 
 # Contents
-<!-- {:.no_toc}
+{:.no_toc}
 
 * Will be replaced with the ToC, excluding the "Contents" header
-{:toc} -->
+{:toc}
 
 
 
