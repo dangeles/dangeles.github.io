@@ -81,7 +81,11 @@ Talking about field results.| *Dugesia guanajuatensis*
 ## Embryology, Woods Hole-style, in Baja California, México
 
 *Clubes* offers two consecutive weeks of workshops. Initially, I was scheduled
-to give a *Club* in Guanajuato (see above) and Heather, my partner, was scheduled
+to give a *Club* in Guanajuato (see above) and
+[Heather Curtis](http://www.stathlab.caltech.edu/people.html), my partner and a
+graduate student in the
+[Caltech Biology program](http://www.bbe.caltech.edu/content/graduate-program),
+was scheduled
 to give a *Club*, called *Entre genes y animales* (Between genes and animals), the
 week before in Ensenada. However, Heather's instructor had to cancel last-minute.
 Since [Caltech is driving distance from Ensenada](https://www.google.com/maps/dir/California+Institute+of+Technology,+1200+East+California+Boulevard,+Pasadena,+CA+91125,+USA/Ensenada/@33.0065568,-118.5306754,8z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x80c2c4a7ea997b91:0x3499e7d01a61dd1a!2m2!1d-118.125269!2d34.1376576!1m5!1m1!1s0x80d88ef01f54b9f5:0xf360981bb676a651!2m2!1d-116.5963713!2d31.8667427),
