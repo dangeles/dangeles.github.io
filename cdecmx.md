@@ -93,9 +93,11 @@ Once in Ensenada, Heather deployed an amazing Embryology course that strongly
 reminded me of a
 [certain famous course](http://www.mbl.edu/education/courses/embryology/).
 Our first step was to show students how to extract DNA
-<img id="A student extracting DNA" src="https://dangeles.github.io/images/dna_extraction.jpg" width="300">|
-:----:|
-DNA extraction time!
+
+<table class="image">
+<caption align="bottom">DNA extraction time!</caption>
+<tr><td><img id="A student extracting DNA" src="https://dangeles.github.io/images/dna_extraction.jpg" width="300"></td></tr>
+</table>
 
 Heather had brought a number of embryos from different species with her to Mexico.
 After the students made their own makeshift microscopes, which Heather had designed,
@@ -106,4 +108,4 @@ that the University hosting us had kindly provided.
 
 <img id="Aurelia aurita imaged with a newly made microscope" src="https://dangeles.github.io/images/aurelia.jpg" width="300"> | <img id="Microscopy observation" src="https://dangeles.github.io/images/microscopy_at_clubes.jpg" width="300">
 :----:|:------:
-*Aurelia aurita*, imaged by one of the students. | Observations on a stereomicroscope.
+*Aurelia aurita*, imaged by a student. | Observations on a stereomicroscope.
