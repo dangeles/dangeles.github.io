@@ -104,6 +104,6 @@ we introduced them to various embryos, including *Xenopus* gastrulating embryos,
 these animals using both their newly made microscopes or some stereomicroscopes
 that the University hosting us had kindly provided.
 
-<img id="Aurelia aurita imaged with a newly made microscope" src="https://dangeles.github.io/images/aurelia.jpg" width="300">|<img id="Microscopy observation" src="https://dangeles.github.io/images/microscopy_at_clubes.jpg" width="300">
-:----:|
-*Aurelia aurita*, imaged by one of the students| A student making observations on a stereomicroscope
+<img id="Aurelia aurita imaged with a newly made microscope" src="https://dangeles.github.io/images/aurelia.jpg" width="300"> | <img id="Microscopy observation" src="https://dangeles.github.io/images/microscopy_at_clubes.jpg" width="300">
+:----:|:------:
+*Aurelia aurita*, imaged by one of the students. | Observations on a stereomicroscope.
