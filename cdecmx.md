@@ -79,3 +79,31 @@ Talking about field results.| *Dugesia guanajuatensis*
 
 
 ## Embryology, Woods Hole-style, in Baja California, México
+
+*Clubes* offers two consecutive weeks of workshops. Initially, I was scheduled
+to give a *Club* in Guanajuato (see above) and Heather, my partner, was scheduled
+to give a *Club* the week before in Ensenada. However, Heather's instructor had
+to cancel last-minute. Since
+[Caltech is driving distance from Ensenada](https://www.google.com/maps/dir/California+Institute+of+Technology,+1200+East+California+Boulevard,+Pasadena,+CA+91125,+USA/Ensenada/@33.0065568,-118.5306754,8z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x80c2c4a7ea997b91:0x3499e7d01a61dd1a!2m2!1d-118.125269!2d34.1376576!1m5!1m1!1s0x80d88ef01f54b9f5:0xf360981bb676a651!2m2!1d-116.5963713!2d31.8667427),
+we decided I might as well come along and be her co-instructor for the week as
+well. Heather had planned an amazing workshop based on animal development, and
+so we drove into the sunset (ok, not quite) into Mexico.
+
+Once in Ensenada, Heather deployed an amazing Embryology course that strongly
+reminded me of a
+[certain famous course](http://www.mbl.edu/education/courses/embryology/).
+Our first step was to show students how to extract DNA
+<img id="A student extracting DNA" src="https://dangeles.github.io/images/dna_extraction.jpg" width="300">|
+:----:|
+DNA extraction time!
+
+Heather had brought a number of embryos from different species with her to Mexico.
+After the students made their own makeshift microscopes, which Heather had designed,
+we introduced them to various embryos, including *Xenopus* gastrulating embryos,
+*Aurelia* polyps, sea urchins and *Drosophila* embryos. They had a chance to image
+these animals using both their newly made microscopes or some stereomicroscopes
+that the University hosting us had kindly provided.
+
+<img id="Aurelia aurita imaged with a newly made microscope" src="https://dangeles.github.io/images/aurelia.jpg" width="300">|<img id="Microscopy observation" src="https://dangeles.github.io/images/microscopy_at_clubes.jpg" width="300">
+:----:|
+*Aurelia aurita*, imaged by one of the students| A student making observations on a stereomicroscope
