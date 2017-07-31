@@ -96,7 +96,7 @@ Our first step was to show students how to extract DNA
 
 <table class="image">
 <caption align="bottom">DNA extraction time!</caption>
-<tr><td><img id="A student extracting DNA" src="https://dangeles.github.io/images/dna_extraction.jpg" width="300"></td></tr>
+<tr><td><img id="A student extracting DNA" src="https://dangeles.github.io/images/dna_extract.jpg" width="300"></td></tr>
 </table>
 
 Heather had brought a number of embryos from different species with her to Mexico.
