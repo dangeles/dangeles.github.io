@@ -40,7 +40,7 @@ workshops this year! I'm looking forward to hearing what the students have to
 say about this (I will update this after the workshops happen). Thanks Manu,
 Max, Honomi and the rest of the Foldscope community for this great opportunity!
 
-## Discovering a new planarian species in Guanajuato
+## Discovering a new planarian species in Guanajuato, 2016
 In 2016, I led a *Clubes de Ciencia* workshop in Guanajuato along with HHMI
 Investigator
 [Alejandro Sánchez-Alvarado](http://www.hhmi.org/scientists/alejandro-sanchez-alvarado).
@@ -78,7 +78,7 @@ about this beautiful animal, known henceforth as *Dugesia guanajuatensis*.
 Talking about field results.| *Dugesia guanajuatensis*
 
 
-## Embryology, Woods Hole-style, in Baja California, México
+## Embryology, Woods Hole-style, in Baja California, México, 2016
 
 *Clubes* offers two consecutive weeks of workshops. Initially, I was scheduled
 to give a *Club* in Guanajuato (see above) and
@@ -125,3 +125,26 @@ a photo of the group at the tide pools.
 <img id="A barnacle and a crab" src="https://dangeles.github.io/images/barnacle_and_crab.jpg" width="300"> | <img id="Group photo" src="https://dangeles.github.io/images/tidepool_group_photo.jpg" width="300">
 :----:|:------:
 A barnacle and a crab. | *Entre genes y animales* group photo.
+
+## Biology by the Numbers, 2014
+
+In 2014, my good friend, [Manuel Razo](https://twitter.com/mrazomej), a
+[Biochemistry and Molecular Biophysics graduate student](http://www.cce.caltech.edu/content/biochemistry-and-molecular-biophysics),
+who works with [Rob Phillips](http://www.rpgroup.caltech.edu/) at Caltech gave
+a workshop in Ensenada called *Biología a través de los números*. As he was
+planning the course, he contacted me and invited me to attend as a guest lecturer.
+Together, we talked [Justin Bois](http://bois.caltech.edu/) and
+[James Boedicker](http://dornsife.usc.edu/labs/boedickerlab/people/) into coming
+down as well! Justin, James and I drove down from Caltech into Ensenada. Each of
+us gave a lecture-Justin talked about cytoplasmic flow in the *Drosophila*
+embryo, and James talked about microbial communities and ecology. I decided to
+give a lecture focusing on population genetics and the importance of genetic
+drift and non-adaptative change. Although cumulatively James, Justin and I only
+lectured for a day and a half, it was a blast!
+
+After we left, Manuel led his students through the basics of guesstimation,
+statistical mechanics and the quantitative science of gene regulation. The
+students deeply enjoyed the course. Just recently (in 2016), Manuel has been
+receiving updates from students who have graduated and are now beginning graduate
+programs in various parts of the world! It's exciting and deeply moving to see
+this movement paying off.
