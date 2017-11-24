@@ -75,11 +75,9 @@ previously described! Thanks to his lab, we now have a genome and a transcriptom
 Hopefully, at some point Alejandro and his team will get around to writing a paper
 about this beautiful animal, known henceforth as *Dugesia guanajuatensis*.
 
-<center>
 <img id="Alejandro and the students talk" src="https://dangeles.github.io/images/clubes_alexyestudiantes.jpg" width="300">| <img id="D. guanajuatensis!" src="https://dangeles.github.io/images/d_guanajuatensis.JPG" width="300">
 :-:|:-:
 Talking about field results.| *Dugesia guanajuatensis*
-</center>
 
 
 ## Embryology, Woods Hole-style, in Baja California, México, 2016
@@ -102,10 +100,12 @@ reminded me of a
 [certain famous course](http://www.mbl.edu/education/courses/embryology/).
 Our first step was to show students how to extract some DNA from strawberries.
 
+<center>
 <table class="image">
 <caption align="bottom">DNA extraction time!</caption>
 <tr><td><img id="A student extracting DNA" src="https://dangeles.github.io/images/dna_extract.jpg" width="300"></td></tr>
 </table>
+</center>
 
 Heather had brought a number of embryos from different species with her to Mexico.
 After the students made their own makeshift microscopes, which Heather had designed,
