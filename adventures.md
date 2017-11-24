@@ -6,6 +6,10 @@ permalink: /adventures/
 
 Under construction!
 
+{% for post in site.adventures %}
+    {{ post.title }}
+{% endfor %}
+
 ### Upcoming: Trip to Alaska!
 
 ### Learning to scuba dive! 2017
@@ -23,13 +27,3 @@ Under construction!
 ### Yosemite, May 2016
 
 ### Chiapas, Mexico, 2015
-
-### Joshua Tree, 2015
-
-Heather, Jon, Porfi and I (left to right) visited Joshua Tree a while ago.
-The Joshua trees were amazing&mdash;otherworldly and strange like nothing in
-this world. We camped there for a night, and spent the following day bouldering
-throughout the desert!
-
-<img id="photo_of_me_with_others"
-src="https://dangeles.github.io/images/us.jpg" width="400" class="rotate180">
