@@ -48,10 +48,12 @@ We talked about genetics in *C. elegans* and planarians. When Alejandro showed
 up, he brought with him a number of planarians for the students to cut up into
 tiny little pieces, which the students did in short order. See below!
 
+<center>
 <table class="image">
 <caption align="bottom">José and Isra, <I>Clubes</I> students, in the lab.</caption>
 <tr><td><img id="photo_of_students" src="https://dangeles.github.io/images/clubes_estudiantes.jpg" width="300"></td></tr>
 </table>
+</center>
 
 One of the things Alejandro told me he was interested in doing was searching for
 undiscovered planarian species with our students. We asked the students to point
@@ -73,9 +75,11 @@ previously described! Thanks to his lab, we now have a genome and a transcriptom
 Hopefully, at some point Alejandro and his team will get around to writing a paper
 about this beautiful animal, known henceforth as *Dugesia guanajuatensis*.
 
+<center>
 <img id="Alejandro and the students talk" src="https://dangeles.github.io/images/clubes_alexyestudiantes.jpg" width="300">| <img id="D. guanajuatensis!" src="https://dangeles.github.io/images/d_guanajuatensis.JPG" width="300">
 :-:|:-:
 Talking about field results.| *Dugesia guanajuatensis*
+</center>
 
 
 ## Embryology, Woods Hole-style, in Baja California, México, 2016
