@@ -65,7 +65,7 @@ planarians!!!!
 
 <img id="Alejandro examines wild planarians" src="https://dangeles.github.io/images/clubes_alex.jpg" width="300"> | <img id="Students in the field!" src="https://dangeles.github.io/images/estudiantes_en_campo.jpg" width="300">
 :-------------------------:|:-------------------------:
-Alejandro looks at wild planarians  |  Our students out in the field.
+Alejandro looks at wild planarians.  |  Our students out in the field.
 
 After the fact, we took the planarians back to the lab, where we studied their
 morphology, movement, and regenerative abilities. After the course ended,
@@ -75,7 +75,7 @@ previously described! Thanks to his lab, we now have a genome and a transcriptom
 Hopefully, at some point Alejandro and his team will get around to writing a paper
 about this beautiful animal, known henceforth as *Dugesia guanajuatensis*.
 
-<img id="Alejandro and the students talk" src="https://dangeles.github.io/images/clubes_alexyestudiantes.jpg" width="300">| <img id="D. guanajuatensis!" src="https://dangeles.github.io/images/d_guanajuatensis.JPG" width="300">
+<img id="Alejandro and the students talk" src="https://dangeles.github.io/images/clubes_alexyestudiantes.jpg" width="300">  | <img id="D. guanajuatensis!" src="https://dangeles.github.io/images/d_guanajuatensis.JPG" width="300">
 :-:|:-:
 Talking about field results.| *Dugesia guanajuatensis*
 
