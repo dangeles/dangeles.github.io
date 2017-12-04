@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-<!-- <img id="photo_of_me_with_others" src="https://dangeles.github.io/images/us.jpg" width="400" class="rotate180"> -->
+
 <center>
 <img id="photo of David" src="https://dangeles.github.io/images/david.jpg" width="400">
 </center>

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Some thoughts before the new year
+categories: science
 ---
 
 There's no better time to start blogging seriously, I suppose than when it's the end.
