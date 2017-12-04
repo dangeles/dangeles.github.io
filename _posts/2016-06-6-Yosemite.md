@@ -66,5 +66,5 @@ good.
 
 <center>
 <img id="Yosemite!"
-src="https://dangeles.github.io/images/yosemite_2.jpg" width="400">
+src="https://dangeles.github.io/images/yosemite_2.JPG" width="400">
 </center>
