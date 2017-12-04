@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Yosemite Backcountry Camping
-categories: adventures
+categories: adventure
 ---
 
 On June 3rd to the 6th, Heather, Manuel, Charlotte and I headed to Yosemite
