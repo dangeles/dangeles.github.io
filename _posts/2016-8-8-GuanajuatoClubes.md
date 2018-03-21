@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Guanajuato, Ciudad de las Ranas
-categories: outreach, adventure
+categories: outreach adventure
 ---
 
 One week after we visited Ensenada, Heather and I flew to Guanajuato to teach
