@@ -132,7 +132,7 @@ A barnacle and a crab. | *Entre genes y animales* group photo.
 
 ## Biology by the Numbers, 2014
 
-In 2014, my good friend, [Manuel Razo](https://twitter.com/mrazomej), a
+In 2014, Manuel Razo, a
 [Biochemistry and Molecular Biophysics graduate student](http://www.cce.caltech.edu/content/biochemistry-and-molecular-biophysics),
 who works with [Rob Phillips](http://www.rpgroup.caltech.edu/) at Caltech gave
 a workshop in Ensenada called *Biología a través de los números*. As he was
