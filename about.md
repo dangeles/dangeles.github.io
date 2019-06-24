@@ -16,7 +16,7 @@ at the California Institute of Technology, where I did my graduate work with
 [Paul Sternberg](http://wormlab.caltech.edu/LabMembers/Paul) figuring out how to
 use transcriptomes as phenotypes for genetic analysis in *C. elegans*.
 
-## [CV](https://dangeles.github.io/cv.pdf)
+## [CV](https://dangeles.github.io/AngelesAlboresDavid_cv.pdf)
 
 ### Contact me
 
