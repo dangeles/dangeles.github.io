@@ -47,10 +47,10 @@ The days since then have been, simultaneously,
 the hardest and the most inspiring I have
 lived through. Inspiring, because as news of
 my situation have spread, I have realized how
-wrong I was to believe my life was ended. In
+wrong I was to believe my life had ended. In
 the moments when I thought everything was in
 free-fall, I felt myself being lifted by a
-thousand helpings hands. I have discovered I
+thousand helping hands. I have discovered I
 have far more friends than I had any right to
 expect.
 
