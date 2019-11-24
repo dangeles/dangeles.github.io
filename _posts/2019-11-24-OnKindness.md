@@ -26,7 +26,7 @@ the order of events.
 What I can remember is that as I stumbled on
 to the curb, my phone rang. A friend, Colin,
 called me because he was with another college
-buddy of ours Sean and they wanted to
+buddy of ours, Sean, and they wanted to
 reminisce. When they found out what had
 transpired, the two of them organized to
 airlift me somewhere I could get the
