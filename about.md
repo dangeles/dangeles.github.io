@@ -23,4 +23,4 @@ unit at [eGenesis](https://www.egenesisbio.com/).
 
 ### Contact me
 
-[dangeles@caltech.edu](mailto:dangeles@caltech.edu)
+[davidaalbores@gmail.com](mailto:davidaalbores@gmail.com)
