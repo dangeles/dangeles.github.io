@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <center>
-<img id="photo of David" src="https://dangeles.github.io/images/winter_portrait.jpg" width="400">
+<img id="photo of David" src="https://dangeles.github.io/images/winter_portrait.jpeg" width="400">
 </center>
 
 Welcome! I am scientist interested in genetics, genomics and microbiomics.
