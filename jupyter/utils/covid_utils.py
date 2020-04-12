@@ -57,35 +57,56 @@ def plot_time(df, col, min_cases=100, ymin=100, **kwargs):
     return Tau, Cov
 
 
-def scatter_plot_per_state(df):
+def scatter_plot_per_state(df, CFR=False):
     fig, ax = plt.subplots(figsize=(10, 10))
 
     for n, g in df[df.deaths > 1].groupby('state'):
         if len(g) < 5:
             continue
-        if n in ['Washington', 'New York', 'Massachusetts', 'New Jersey']:
-            plt.scatter(g.cases, g.deaths, label=n, zorder=np.inf, s=100)
+        if CFR:
+            y = g.deaths / g.cases
         else:
-            plt.scatter(g.cases, g.deaths, color='black', alpha=0.3)
+            y = g.deaths
+        if n in ['Washington', 'New York', 'Massachusetts', 'New Jersey']:
+            plt.scatter(g.cases, y, label=n, zorder=np.inf, s=100)
+        else:
+            plt.scatter(g.cases, y, color='black', alpha=0.3)
 
 
-def plot_cases_vs_deaths(df):
+def plot_cases_vs_deaths(df, CFR=False):
 
     x = np.linspace(10**0, 10**6, 10)
 
-    scatter_plot_per_state(df)
-    plt.plot(x, x / 10,
-             label='10\% mortality rate', color='black', ls='-')
-    plt.plot(x, x / 100,
-             label='1\% mortality rate', color='black', ls='--')
+    scatter_plot_per_state(df, CFR)
+
+    if CFR:
+        plt.axhline(.1, label='10\% mortality rate', color='black', ls='-')
+        plt.axhline(.01, label='1\% mortality rate', color='black', ls='--')
+        plt.axhline(.03, label='2\% mortality rate', color='black', ls='-.')
+    else:
+        plt.plot(x, x / 10,
+                 label='10\% mortality rate', color='black', ls='-')
+        plt.plot(x, x / 100,
+                 label='1\% mortality rate', color='black', ls='--')
+        # plt.plot(x, 3 * x / 100,
+        #          label='2\% mortality rate', color='black', ls='-.')
 
     plt.xlim(10**1, 10**6)
-    plt.ylim(10**0, 5 * 10**4)
+
+    if CFR:
+        plt.ylim(10**-3, 1)
+    else:
+        plt.ylim(10**0, 5 * 10**4)
     plt.legend(loc=(1, .3))
     plt.xscale('log')
     plt.yscale('log')
     plt.xlabel('Cases')
-    plt.ylabel('Deaths')
+    plt.legend()
+
+    if CFR:
+        plt.ylabel('Case Fatality Rate')
+    else:
+        plt.ylabel('Deaths')
 
 
 def common_entries(*dcts):
@@ -119,16 +140,19 @@ def plot_params(f, tau_cases, tau_deaths, cov_cases, cov_deaths):
 
     first = True
     for i, t in enumerate(filtered):
-        if (filt_names[i] in 
+        if (filt_names[i] in
             ['Washington', 'New York', 'Massachusetts', 'New Jersey']):
-            plt.scatter(f(t[0]), f(t[1]), s=filt_vars.min() * 50 / filt_vars[i])
+            plt.scatter(f(t[0]), f(t[1]), s=filt_vars.min() * 50 / filt_vars[i],
+                        label=filt_names[i])
         else:
             if first:
                 plt.scatter(f(t[0]), f(t[1]),
                             s=filt_vars.min() * 50 / filt_vars[i],
-                            color='black', zorder=0, label='Otro')
+                            color='black', zorder=0, label='Other')
             else:
                 plt.scatter(f(t[0]), f(t[1]),
                             s=filt_vars.min() * 50 / filt_vars[i],
-                            color='black', zorder=0, label='_Otro')
+                            color='black', zorder=0, label='_Other')
             first = False
+
+    plt.legend()
