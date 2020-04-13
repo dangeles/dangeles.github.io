@@ -169,7 +169,8 @@ def plot_params(f, tau_cases, tau_deaths, cov_cases, cov_deaths):
 
 
 def plot_smooth(ax, df, cond, norm_func=None, intercept = False, smooth=True,
-                gradient=False, col='cases', factor=1):
+                gradient=False, col='cases', factor=1, max_norm=False,
+                alpha=0.3):
     color = {'New York': 'red',
              'New Jersey': 'blue',
              'Massachusetts': 'orange',
@@ -197,24 +198,31 @@ def plot_smooth(ax, df, cond, norm_func=None, intercept = False, smooth=True,
         if gradient:
             y = np.gradient(y, x)
 
+        if max_norm:
+            y = y / np.abs(y).max()
+
         if n not in ['New Jersey', 'New York', 'Massachusetts',
                      'Washington', 'California']:
-            ax.plot(x, y, color='black', alpha=0.2)
+            ax.plot(x, y, color='black', alpha=alpha)
         else:
-            ax.scatter(x, y, label=n, zorder=np.inf, s=50, color=color[n])
+            ax.scatter(x, y, label=n, zorder=np.inf, s=35, color=color[n])
             ax.plot(x, y, zorder=np.inf, lw=1, color=color[n])
 
 
 def plot(ax, df, col1, col2, col3, n1=10, n2=10 ** -6, n3=1, ylab='case',
-         gradient=False, factor1=1, factor2=10 ** 6 , factor3=100):
+         gradient=False, factor1=1, factor2=10 ** 6 , factor3=100,
+         max_norm=False, alpha=0.3):
     cond = df[col1] > n1
-    plot_smooth(ax[0], df, cond, col=col1, gradient=gradient, factor=factor1)
+    plot_smooth(ax[0], df, cond, col=col1, gradient=gradient, factor=factor1,
+                max_norm=max_norm, alpha=alpha)
 
     cond = df[col2] > n2
-    plot_smooth(ax[1], df, cond, col=col2, gradient=gradient, factor=factor2)
+    plot_smooth(ax[1], df, cond, col=col2, gradient=gradient, factor=factor2,
+                max_norm=max_norm, alpha=alpha)
 
     cond = df[col3] > n3
-    plot_smooth(ax[2], df, cond, col=col3, gradient=gradient, factor=factor3)
+    plot_smooth(ax[2], df, cond, col=col3, gradient=gradient, factor=factor3,
+                max_norm=max_norm, alpha=alpha)
 
     ax[0].set_xlabel('Days since {1} {0}s'.format(ylab, n1))
     ax[1].set_xlabel('Days since 1 {0} / 1M people'.format(ylab))
