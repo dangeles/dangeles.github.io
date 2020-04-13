@@ -7,6 +7,7 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 import seaborn as sns
 from matplotlib import rc
+from scipy.signal import savgol_filter
 
 
 def growth(t, a, tau, b):
@@ -57,56 +58,65 @@ def plot_time(df, col, min_cases=100, ymin=100, **kwargs):
     return Tau, Cov
 
 
-def scatter_plot_per_state(df, CFR=False):
-    fig, ax = plt.subplots(figsize=(10, 10))
+def scatter_plot_per_state(df, CFR=False, xcol='cases', ycol='deaths', ax=None):
+    if ax is None:
+        fig, ax = plt.subplots(figsize=(6, 6))
 
-    for n, g in df[df.deaths > 1].groupby('state'):
+    for n, g in df[df.deaths >= 1].groupby('state'):
         if len(g) < 5:
             continue
         if CFR:
-            y = g.deaths / g.cases
+            y = g[ycol] / g[xcol]
         else:
-            y = g.deaths
+            y = g[ycol]
         if n in ['Washington', 'New York', 'Massachusetts', 'New Jersey']:
-            plt.scatter(g.cases, y, label=n, zorder=np.inf, s=100)
+            ax.scatter(g[xcol], y, label=n, zorder=np.inf, s=75)
         else:
-            plt.scatter(g.cases, y, color='black', alpha=0.3)
+            ax.scatter(g[xcol], y, color='black', alpha=0.2)
 
 
-def plot_cases_vs_deaths(df, CFR=False):
+def plot_cases_vs_deaths(df, CFR=False, xcol='cases', ycol='deaths', ax=None):
 
     x = np.linspace(10**0, 10**6, 10)
 
-    scatter_plot_per_state(df, CFR)
+    if ax is None:
+        fig, ax = plt.subplots(figsize=(6, 6))
+
+    scatter_plot_per_state(df, CFR, xcol, ycol, ax=ax)
 
     if CFR:
-        plt.axhline(.1, label='10\% mortality rate', color='black', ls='-')
-        plt.axhline(.01, label='1\% mortality rate', color='black', ls='--')
-        plt.axhline(.03, label='2\% mortality rate', color='black', ls='-.')
+        ax.axhline(.1, label='10\% mortality rate', color='black', ls='-')
+        ax.axhline(.01, label='1\% mortality rate', color='black', ls='--')
+        ax.axhline(.03, label='2\% mortality rate', color='black', ls='-.')
     else:
-        plt.plot(x, x / 10,
+        ax.plot(x, x / 10,
                  label='10\% mortality rate', color='black', ls='-')
-        plt.plot(x, x / 100,
+        ax.plot(x, x / 100,
                  label='1\% mortality rate', color='black', ls='--')
-        # plt.plot(x, 3 * x / 100,
-        #          label='2\% mortality rate', color='black', ls='-.')
 
-    plt.xlim(10**1, 10**6)
-
-    if CFR:
-        plt.ylim(10**-3, 1)
-    else:
-        plt.ylim(10**0, 5 * 10**4)
-    plt.legend(loc=(1, .3))
-    plt.xscale('log')
-    plt.yscale('log')
-    plt.xlabel('Cases')
-    plt.legend()
+    ax.set_xlim(df[df.deaths >= 1][xcol].min() / 2,
+                df[df.deaths >= 1][xcol].max() * 2)
 
     if CFR:
-        plt.ylabel('Case Fatality Rate')
+        cfr = df[df.deaths >= 1][ycol] / df[df.deaths >= 1][xcol]
+        ax.set_ylim(cfr.min() / 2, 1)
     else:
-        plt.ylabel('Deaths')
+        ax.set_ylim(df[df.deaths >= 1][ycol].min() / 2,
+                 df[df.deaths >= 1][ycol].max() * 2)
+
+
+    # plt.legend(loc=(1, .3))
+    ax.set_xscale('log')
+    ax.set_yscale('log')
+    ax.set_xlabel('Cases')
+    # plt.legend()
+
+    if CFR:
+        ax.set_ylabel('Case Fatality Rate')
+    else:
+        ax.set_ylabel('Deaths')
+
+    return ax
 
 
 def common_entries(*dcts):
@@ -156,3 +166,61 @@ def plot_params(f, tau_cases, tau_deaths, cov_cases, cov_deaths):
             first = False
 
     plt.legend()
+
+
+def plot_smooth(ax, df, cond, norm_func=None, intercept = False, smooth=True,
+                gradient=False, col='cases', factor=1):
+    color = {'New York': 'red',
+             'New Jersey': 'blue',
+             'Massachusetts': 'orange',
+             'Washington': 'purple',
+             'California': 'green'}
+    if norm_func is None:
+        norm_func = lambda x: x
+
+    if intercept:
+        add = df[cond][col].min(),
+    else:
+        add = 0
+
+    for n, g in df[cond].groupby('state'):
+        x = (g.date - g.date.min()) / dt.timedelta(days=1)
+
+        if len(g) < 15:
+            continue
+
+        if smooth:
+            y = factor * savgol_filter(norm_func(g[col]) + add, 7, 3)
+        else:
+            y = factor * norm_func(g[col]) + add
+
+        if gradient:
+            y = np.gradient(y, x)
+
+        if n not in ['New Jersey', 'New York', 'Massachusetts',
+                     'Washington', 'California']:
+            ax.plot(x, y, color='black', alpha=0.2)
+        else:
+            ax.scatter(x, y, label=n, zorder=np.inf, s=50, color=color[n])
+            ax.plot(x, y, zorder=np.inf, lw=1, color=color[n])
+
+
+def plot(ax, df, col1, col2, col3, n1=10, n2=10 ** -6, n3=1, ylab='case',
+         gradient=False, factor1=1, factor2=10 ** 6 , factor3=100):
+    cond = df[col1] > n1
+    plot_smooth(ax[0], df, cond, col=col1, gradient=gradient, factor=factor1)
+
+    cond = df[col2] > n2
+    plot_smooth(ax[1], df, cond, col=col2, gradient=gradient, factor=factor2)
+
+    cond = df[col3] > n3
+    plot_smooth(ax[2], df, cond, col=col3, gradient=gradient, factor=factor3)
+
+    ax[0].set_xlabel('Days since {1} {0}s'.format(ylab, n1))
+    ax[1].set_xlabel('Days since 1 {0} / 1M people'.format(ylab))
+    ax[2].set_xlabel('Days since 1 {0} sq. mi / 100 people'.format(ylab))
+
+    ax[0].set_title('{0}s'.format(ylab))
+    ax[1].set_title('{0}s per {1:.0e} people'.format(ylab, factor2))
+    ax[2].set_title('{0}s per Density'.format(ylab))
+    return ax
