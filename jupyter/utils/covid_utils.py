@@ -6,8 +6,12 @@ import numpy as np
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import seaborn as sns
+
 from matplotlib import rc
+from scipy import stats as st
 from scipy.signal import savgol_filter
+from scipy.special import logsumexp
+from matplotlib.colors import ListedColormap
 
 
 def growth(t, a, tau, b):
@@ -232,3 +236,130 @@ def plot(ax, df, col1, col2, col3, n1=10, n2=10 ** -6, n3=1, ylab='case',
     ax[1].set_title('{0}s per {1:.0e} people'.format(ylab, factor2))
     ax[2].set_title('{0}s per Density'.format(ylab))
     return ax
+
+
+def bayes_prob(t, r, cases, prev, gamma=1/10, p_prev=1):
+    """
+    Bayes update rule for R0 through time.
+
+    Params:
+    -------
+    t:  int. used to tell whether this is the first timepoint or not
+    r:  float. viral reproductive number
+    cases:  int. number of cases at time t
+    prev:   int. number of cases at time t-1
+    gamma:  float. 1 / serial interval for disease
+    p_prev: array. posterior at time t-1
+
+    Output:
+    -------
+    p:  array. posterior at time t
+    """
+    l = prev * np.exp(gamma * ( r - 1))
+    # probability function:
+    if t > 0:
+        prior = st.norm(loc=r, scale=0.25).pdf(r[:, None])
+        prior /= prior.sum()
+    else:
+        prior = st.norm(loc=4, scale=.01).pdf(r[:, None])
+        prior /= prior.sum()
+
+
+    p = st.poisson.logpmf(cases, l)
+    p = np.exp(p - logsumexp(p)) * p_prev @ prior
+    p /= p.sum()
+
+    return p
+
+
+def r_calc(d, col='newCases', gamma=1/10):
+    """
+    Find the maximum a posteriori estimate for R_t
+    """
+    t = 0
+    r = np.linspace(.5, 9, 1000)
+    maxR = np.repeat(-1., len(d))
+    maxp = 0
+    prev = 1
+    p_prev = 1
+    for date, g in d.groupby('date'):
+        if np.isnan(g[col].values[0]):
+            t += 1
+            continue
+
+        p = bayes_prob(t, r, g[col].values[0], prev, gamma, p_prev)
+        prev = g[col].unique()[0]
+
+        if np.isnan(p).all():
+            maxR[t] = -1
+        else:
+            p_prev = p
+            maxR[t] = r[np.where(p == p.max())]
+
+        t += 1
+    return maxR
+
+def plot_rt(states, df, cond, gamma=1/10, figsize=(20, 8)):
+    fig, ax = plt.subplots(ncols=len(states), nrows=2, figsize=figsize,
+                           sharey='row', sharex='col')
+
+    i = 0
+    for n, g in df[cond].groupby('state'):
+        if n not in states:
+            continue
+        gp = g.copy()
+        gp['newCases'] = gp.cases.diff().rolling(window=10,
+                                                 win_type='gaussian',
+                                                 center=True).mean(std=2).round()
+        gp['newDeaths'] = gp.deaths.diff().rolling(window=10,
+                                                   win_type='gaussian',
+                                                   center=True).mean(std=2).round()
+
+        maxR = r_calc(gp, gamma=gamma)
+        maxRd = r_calc(gp, col='newDeaths', gamma=gamma)
+
+        x = (gp.date - gp.date.min()) / dt.timedelta(days=1)
+        condR = maxR > 0
+        condRd = maxRd > 0
+
+        xR = x[condR]
+        xRd = x[condRd]
+        maxR = maxR[condR]
+        maxRd = maxRd[condRd]
+
+        ABOVE = [1,0,0]
+        MIDDLE = [1,1,1]
+        BELOW = [0,0,0]
+        color_mapped = lambda y: np.clip(y, .5, 1.5)-.5
+        cmap = ListedColormap(np.r_[
+                np.linspace(BELOW,MIDDLE,25),
+                np.linspace(MIDDLE,ABOVE,25)
+            ])
+
+        if len(states) > 1:
+            ax[0, i].scatter(xR, maxR, color=cmap(color_mapped(maxR)))
+            ax[1, i].scatter(xRd, maxRd, color=cmap(color_mapped(maxRd)))
+            ax[0, i].set_title(n)
+
+        else:
+            ax[0].scatter(xR, maxR, color=cmap(color_mapped(maxR)))
+            ax[1].scatter(xRd, maxRd, color=cmap(color_mapped(maxRd)))
+            ax[0].set_title(n)
+        i += 1
+
+    if len(ax) > 1:
+        for ai in ax:
+            if type(ai) is not np.ndarray:
+                break
+            for aij in ai:
+                aij.axhline(1, color='black', zorder=0, ls='--')
+                aij.set_ylim(0, 8)
+
+    if len(states) > 1:
+        ax[0, 0].set_ylabel('R0 based on cases')
+        ax[1, 0].set_ylabel('R0 based on deaths')
+    else:
+        ax[0].set_ylabel('R0 based on cases')
+        ax[1].set_ylabel('R0 based on deaths')
+
+    _ = plt.figtext(.5, .045, 'Days since 1 death', fontsize=25, ha='center')
