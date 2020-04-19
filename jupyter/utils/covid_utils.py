@@ -353,7 +353,11 @@ def plot_rt(states, df, cond, gamma=1/10, figsize=(20, 8)):
                 break
             for aij in ai:
                 aij.axhline(1, color='black', zorder=0, ls='--')
-                aij.set_ylim(0, 8)
+
+        for ai in ax[0]:
+            ai.set_ylim(0, 8)
+        for ai in ax[1]:
+            ai.set_ylim(0, 5)
 
     if len(states) > 1:
         ax[0, 0].set_ylabel('$R_t$ based on cases')
@@ -362,4 +366,4 @@ def plot_rt(states, df, cond, gamma=1/10, figsize=(20, 8)):
         ax[0].set_ylabel('$R_t$ based on cases')
         ax[1].set_ylabel('$R_t$ based on deaths')
 
-    _ = plt.figtext(.5, .045, 'Days since 1 death', fontsize=25, ha='center')
+    # _ = plt.figtext(.5, .045, 'Days since 1 death', fontsize=25, ha='center')
