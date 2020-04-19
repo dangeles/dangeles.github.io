@@ -356,10 +356,10 @@ def plot_rt(states, df, cond, gamma=1/10, figsize=(20, 8)):
                 aij.set_ylim(0, 8)
 
     if len(states) > 1:
-        ax[0, 0].set_ylabel('R0 based on cases')
-        ax[1, 0].set_ylabel('R0 based on deaths')
+        ax[0, 0].set_ylabel('$R_t$ based on cases')
+        ax[1, 0].set_ylabel('$R_t$ based on deaths')
     else:
-        ax[0].set_ylabel('R0 based on cases')
-        ax[1].set_ylabel('R0 based on deaths')
+        ax[0].set_ylabel('$R_t$ based on cases')
+        ax[1].set_ylabel('$R_t$ based on deaths')
 
     _ = plt.figtext(.5, .045, 'Days since 1 death', fontsize=25, ha='center')
