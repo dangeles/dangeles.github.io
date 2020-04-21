@@ -1,6 +1,6 @@
 ---
 layout: post
-title: COVID-19
+title: COVID-19 Daily Updates
 categories: epidemiology pandemic
 ---
 
