@@ -48,7 +48,7 @@ def plot_time(df, col, min_cases=100, ymin=100, **kwargs):
         # line of best fit:
         fit, covs = scipy.optimize.curve_fit(growth, x, g[col])
         a, tau, b = fit
-        Cov[n] = fit[1]
+        Cov[n] = np.diag(np.abs(covs))[1]
         Tau[n] = tau
 
         # plot:
@@ -134,15 +134,17 @@ def common_entries(*dcts):
 
 
 def filter(tau_cases, tau_deaths, cov_cases, cov_deaths):
+    """
+    This function has an error in the way the covariance error is computed!
+    """
     points, names = common_entries(tau_cases, tau_deaths)
     covs, names = common_entries(cov_cases, cov_deaths)
+    mean_err = np.array([np.sqrt(1/2 * (c[0] + c[1])) for c in covs])
+    normed_err = mean_err / np.max(mean_err)
 
-    mean_covs = np.array([np.sqrt(1/2 * (c[0]**2 + c[1]**2)) for c in covs])
-    normed_covs = mean_covs / np.max(mean_covs)
-
-    filtered = [points[i] for i, v in enumerate(normed_covs) if v < 0.01]
-    filt_names = [names[i] for i, v in enumerate(normed_covs) if v < 0.01]
-    filt_vars = normed_covs[normed_covs < 0.01]
+    filtered = [points[i] for i, v in enumerate(normed_err) if v < 0.01]
+    filt_names = [names[i] for i, v in enumerate(normed_err) if v < 0.01]
+    filt_vars = normed_err[normed_err < 0.01]
     return filtered, filt_names, filt_vars
 
 
@@ -156,7 +158,7 @@ def plot_params(f, tau_cases, tau_deaths, cov_cases, cov_deaths):
     for i, t in enumerate(filtered):
         if (filt_names[i] in
             ['Washington', 'New York', 'Massachusetts', 'New Jersey']):
-            plt.scatter(f(t[0]), f(t[1]), s=filt_vars.min() * 50 / filt_vars[i],
+            plt.scatter(f(t[0]), f(t[1]), s=filt_vars[i] * 5 / filt_vars.min(),
                         label=filt_names[i])
         else:
             if first:
