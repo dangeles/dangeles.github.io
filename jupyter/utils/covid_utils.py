@@ -9,7 +9,6 @@ import seaborn as sns
 
 from matplotlib import rc
 from scipy import stats as st
-from scipy.signal import savgol_filter
 from scipy.special import logsumexp
 from matplotlib.colors import ListedColormap
 
@@ -176,7 +175,7 @@ def plot_params(f, tau_cases, tau_deaths, cov_cases, cov_deaths):
 
 def plot_smooth(ax, df, cond, norm_func=None, intercept = False, smooth=True,
                 gradient=False, col='cases', factor=1, max_norm=False,
-                alpha=0.3):
+                alpha=0.3, window=8):
     color = {'New York': 'red',
              'New Jersey': 'blue',
              'Massachusetts': 'orange',
@@ -197,13 +196,17 @@ def plot_smooth(ax, df, cond, norm_func=None, intercept = False, smooth=True,
             continue
 
         if smooth:
-            y = factor * savgol_filter(norm_func(g[col]) + add, 7, 3)
+            y = factor * pd.Series(norm_func(g[col]) + add)
+            y = y.rolling(window=window, win_type='gaussian',
+                          center=True).mean(std=2).round()
+
         else:
             y = factor * norm_func(g[col]) + add
 
         if gradient:
-            y = np.gradient(y, x)
-
+            # y = np.gradient(y, x)
+            y = y.diff().rolling(window=window, win_type='gaussian',
+                                 center=True).mean(std=2).round()
         if max_norm:
             y = y / np.abs(y).max()
 
@@ -217,18 +220,18 @@ def plot_smooth(ax, df, cond, norm_func=None, intercept = False, smooth=True,
 
 def plot(ax, df, col1, col2, col3, n1=10, n2=10 ** -6, n3=1, ylab='case',
          gradient=False, factor1=1, factor2=10 ** 6 , factor3=100,
-         max_norm=False, alpha=0.3):
+         max_norm=False, alpha=0.3, window=10):
     cond = df[col1] > n1
     plot_smooth(ax[0], df, cond, col=col1, gradient=gradient, factor=factor1,
-                max_norm=max_norm, alpha=alpha)
+                max_norm=max_norm, alpha=alpha, window=window)
 
     cond = df[col2] > n2
     plot_smooth(ax[1], df, cond, col=col2, gradient=gradient, factor=factor2,
-                max_norm=max_norm, alpha=alpha)
+                max_norm=max_norm, alpha=alpha, window=window)
 
     cond = df[col3] > n3
     plot_smooth(ax[2], df, cond, col=col3, gradient=gradient, factor=factor3,
-                max_norm=max_norm, alpha=alpha)
+                max_norm=max_norm, alpha=alpha, window=window)
 
     ax[0].set_xlabel('Days since {1} {0}s'.format(ylab, n1))
     ax[1].set_xlabel('Days since 1 {0} / 1M people'.format(ylab))
@@ -310,10 +313,10 @@ def plot_rt(states, df, cond, gamma=1/10, figsize=(20, 8)):
         if n not in states:
             continue
         gp = g.copy()
-        gp['newCases'] = gp.cases.diff().rolling(window=10,
+        gp['newCases'] = gp.cases.diff().rolling(window=8,
                                                  win_type='gaussian',
                                                  center=True).mean(std=2).round()
-        gp['newDeaths'] = gp.deaths.diff().rolling(window=10,
+        gp['newDeaths'] = gp.deaths.diff().rolling(window=8,
                                                    win_type='gaussian',
                                                    center=True).mean(std=2).round()
 
