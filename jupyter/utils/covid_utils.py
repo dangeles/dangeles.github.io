@@ -70,12 +70,21 @@ def scatter_plot_per_state(df, CFR=False, xcol='cases', ycol='deaths', ax=None):
             continue
         if CFR:
             y = g[ycol] / g[xcol]
+            y = pd.Series(y).rolling(window=5,
+                                     win_type='gaussian',
+                                     center=True).mean(std=2)
+
         else:
             y = g[ycol]
+            y = pd.Series(y).rolling(window=7,
+                                     win_type='gaussian',
+                                     center=True).mean(std=2).round()
+
         if n in ['Washington', 'New York', 'Massachusetts', 'New Jersey']:
-            ax.scatter(g[xcol], y, label=n, zorder=np.inf, s=75)
+            ax.scatter(g[xcol], y, label=n, zorder=np.inf, s=50)
+            # ax.plot(g[xcol], y, color='black', alpha=0.2)
         else:
-            ax.scatter(g[xcol], y, color='black', alpha=0.2)
+            ax.plot(g[xcol], y, color='black', alpha=0.1)
 
 
 def plot_cases_vs_deaths(df, CFR=False, xcol='cases', ycol='deaths', ax=None):
