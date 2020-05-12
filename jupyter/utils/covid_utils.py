@@ -238,17 +238,11 @@ def plot(ax, df, col1, col2, col3, n1=10, n2=10 ** -6, n3=1, ylab='case',
     plot_smooth(ax[1], df, cond, col=col2, gradient=gradient, factor=factor2,
                 max_norm=max_norm, alpha=alpha, window=window)
 
-    cond = df[col3] > n3
-    plot_smooth(ax[2], df, cond, col=col3, gradient=gradient, factor=factor3,
-                max_norm=max_norm, alpha=alpha, window=window)
-
     ax[0].set_xlabel('Days since {1} {0}s'.format(ylab, n1))
     ax[1].set_xlabel('Days since 1 {0} / 1M people'.format(ylab))
-    ax[2].set_xlabel('Days since 1 {0} sq. mi / 100 people'.format(ylab))
 
     ax[0].set_title('{0}s'.format(ylab))
     ax[1].set_title('{0}s per {1:.0e} people'.format(ylab, factor2))
-    ax[2].set_title('{0}s per Density'.format(ylab))
     return ax
 
 
