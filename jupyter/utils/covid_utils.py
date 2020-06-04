@@ -88,6 +88,7 @@ def scatter_plot_per_state(df, CFR=False, xcol='cases', ycol='deaths', ax=None):
 
 
 def plot_cases_vs_deaths(df, CFR=False, xcol='cases', ycol='deaths', ax=None):
+    df = df[df.deaths >= 1]
 
     x = np.linspace(10**0, 10**6, 10)
 
@@ -111,10 +112,10 @@ def plot_cases_vs_deaths(df, CFR=False, xcol='cases', ycol='deaths', ax=None):
 
     if CFR:
         cfr = df[df.deaths >= 1][ycol] / df[df.deaths >= 1][xcol]
-        ax.set_ylim(cfr.min() / 2, 1)
+        ax.set_ylim(np.max([10 ** -3, cfr.min()]) / 2, 1)
     else:
         ax.set_ylim(df[df.deaths >= 1][ycol].min() / 2,
-                 df[df.deaths >= 1][ycol].max() * 2)
+                    df[df.deaths >= 1][ycol].max() * 2)
 
 
     # plt.legend(loc=(1, .3))
@@ -215,7 +216,7 @@ def plot_smooth(ax, df, cond, norm_func=None, intercept = False, smooth=True,
         if gradient:
             # y = np.gradient(y, x)
             y = y.diff().rolling(window=window, win_type='gaussian',
-                                 center=True).mean(std=2).round()
+                                 center=True).mean(std=2)
         if max_norm:
             y = y / np.abs(y).max()
 
@@ -227,16 +228,16 @@ def plot_smooth(ax, df, cond, norm_func=None, intercept = False, smooth=True,
             ax.plot(x, y, zorder=np.inf, lw=1, color=color[n])
 
 
-def plot(ax, df, col1, col2, col3, n1=10, n2=10 ** -6, n3=1, ylab='case',
-         gradient=False, factor1=1, factor2=10 ** 6 , factor3=100,
-         max_norm=False, alpha=0.3, window=10):
+def plot(ax, df, col1, col2, n1=10, n2=10 ** -6, ylab='case',
+         gradient=False, factor1=1, factor2=10 ** 6,
+         max_norm=False, alpha=0.3, window=10, smooth=True):
     cond = df[col1] > n1
     plot_smooth(ax[0], df, cond, col=col1, gradient=gradient, factor=factor1,
-                max_norm=max_norm, alpha=alpha, window=window)
+                max_norm=max_norm, alpha=alpha, window=window, smooth=smooth)
 
     cond = df[col2] > n2
     plot_smooth(ax[1], df, cond, col=col2, gradient=gradient, factor=factor2,
-                max_norm=max_norm, alpha=alpha, window=window)
+                max_norm=max_norm, alpha=alpha, window=window, smooth=smooth)
 
     ax[0].set_xlabel('Days since {1} {0}s'.format(ylab, n1))
     ax[1].set_xlabel('Days since 1 {0} / 1M people'.format(ylab))
@@ -285,7 +286,7 @@ def r_calc(d, col='newCases', gamma=1/10):
     Find the maximum a posteriori estimate for R_t
     """
     t = 0
-    r = np.linspace(.5, 9, 1000)
+    r = np.linspace(.5, 6, 1000)
     maxR = np.repeat(-1., len(d))
     maxp = 0
     prev = 1
