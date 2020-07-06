@@ -183,61 +183,64 @@ def plot_params(f, tau_cases, tau_deaths, cov_cases, cov_deaths):
     plt.legend()
 
 
-def plot_smooth(ax, df, cond, norm_func=None, intercept = False, smooth=True,
-                gradient=False, col='cases', factor=1, max_norm=False,
-                alpha=0.3, window=8):
-    color = {'New York': 'red',
-             'New Jersey': 'blue',
-             'Massachusetts': 'orange',
-             'Washington': 'purple',
-             'California': 'green'}
-    if norm_func is None:
-        norm_func = lambda x: x
+def plot_smooth(ax, df, cond, intercept = False,
+                gradient=False, col='cases',
+                alpha=0.3, window=8, factor=1):
 
     if intercept:
         add = df[cond][col].min(),
     else:
         add = 0
 
+    curr = []
     for n, g in df[cond].groupby('state'):
         x = (g.date - g.date.min()) / dt.timedelta(days=1)
 
         if len(g) < 15:
             continue
 
-        if smooth:
-            y = factor * pd.Series(norm_func(g[col]) + add)
-            y = y.rolling(window=window, win_type='gaussian',
-                          center=True).mean(std=2).round()
+        y = factor * g.cases
+        y = y.rolling(window=window, win_type='gaussian',
+                      center=True).mean(std=2).round()
 
-        else:
-            y = factor * norm_func(g[col]) + add
+        y = y.diff()
+        curr += [[n, y.dropna().values[-1]]]
 
+    last = pd.DataFrame(curr, columns=['state', 'new_cases'])
+    last.sort_values('new_cases', inplace=True)
+
+    fancy = last.state.values[-4:]
+    for n, g in df[cond].groupby('state'):
+        x = (g.date - g.date.min()) / dt.timedelta(days=1)
+
+        if len(g) < 15:
+            continue
+
+        y = factor * g[col]
+        y = y.rolling(window=window, win_type='gaussian',
+                      center=True).mean(std=2)
         if gradient:
-            # y = np.gradient(y, x)
-            y = y.diff().rolling(window=window, win_type='gaussian',
-                                 center=True).mean(std=2)
-        if max_norm:
-            y = y / np.abs(y).max()
+            y = y.diff()
 
-        if n not in ['New Jersey', 'New York', 'Massachusetts',
-                     'Washington', 'California']:
+        if n not in fancy:
             ax.plot(x, y, color='black', alpha=alpha)
         else:
-            ax.scatter(x, y, label=n, zorder=np.inf, s=35, color=color[n])
-            ax.plot(x, y, zorder=np.inf, lw=1, color=color[n])
+            # ax.scatter(x, y, label=n, zorder=np.inf, s=35, color=color[n])
+            # ax.plot(x, y, zorder=np.inf, lw=1, color=color[n])
+            p = ax.scatter(x, y, label=n, zorder=np.inf, s=35)
+            ax.plot(x, y, zorder=np.inf, lw=1, color=p.get_facecolor()[0] )
 
 
 def plot(ax, df, col1, col2, n1=10, n2=10 ** -6, ylab='case',
          gradient=False, factor1=1, factor2=10 ** 6,
-         max_norm=False, alpha=0.3, window=10, smooth=True):
+         alpha=0.3, window=10):
     cond = df[col1] > n1
     plot_smooth(ax[0], df, cond, col=col1, gradient=gradient, factor=factor1,
-                max_norm=max_norm, alpha=alpha, window=window, smooth=smooth)
+                alpha=alpha, window=window)
 
     cond = df[col2] > n2
     plot_smooth(ax[1], df, cond, col=col2, gradient=gradient, factor=factor2,
-                max_norm=max_norm, alpha=alpha, window=window, smooth=smooth)
+                alpha=alpha, window=window)
 
     ax[0].set_xlabel('Days since {1} {0}s'.format(ylab, n1))
     ax[1].set_xlabel('Days since 1 {0} / 1M people'.format(ylab))
