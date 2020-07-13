@@ -217,10 +217,18 @@ def plot_smooth(ax, df, cond, intercept = False,
             continue
 
         y = factor * g[col]
+        if gradient:
+            # smooth and remove outliers
+            ydiff = y.diff()
+            y_smooth = ydiff.rolling(win_type='gaussian',
+                                     window=window, center=True).mean(std=10)
+            res = ydiff - y_smooth
+            zscores = np.abs(res/ res.rolling(window * 2).std())
+            ydiff[zscores > 2] = y_smooth[zscores > 2]
+            y = ydiff
+
         y = y.rolling(window=window, win_type='gaussian',
                       center=True).mean(std=2)
-        if gradient:
-            y = y.diff()
 
         if n not in fancy:
             ax.plot(x, y, color='black', alpha=alpha)
