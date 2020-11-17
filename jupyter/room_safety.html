@@ -16378,7 +16378,7 @@ $$<p>With the above equation, we can now begin to think about our safety. Suppos
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>This notebook was last updated on Monday November 16, 2020 at 18:52
+<pre>This notebook was last updated on Monday November 16, 2020 at 19:05
 </pre>
 </div>
 </div>
@@ -16651,7 +16651,7 @@ height=293
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="How-safe-is-95%?">How safe is 95%?<a class="anchor-link" href="#How-safe-is-95%?">&#182;</a></h1><p>Well, so far we've established that, at least until 16 November 2020 (date this code was written and first run), I could keep meeting 2 people a day every day and maintain a safety profile of 95% every week. This sounds pretty good. Supposing that the rates don't change enormously moving forward (DISCLAIMER: THEY WILL MASSIVELY INCREASE FROM NOVEMBER 2020 UNTIL A VACCINE ARRIVES), how safe would I have been if I isolated to a safety level of 95%?</p>
-<p>The answer for this is also easier to compute. Assuming I meet new people every day, then each week is independent from each other. Independent probabilities multiply. There are 52 weeks in a year, so I want to know the probability that I did not come into contact with a single COVID patient over all of 2020:</p>
+<p>The answer for this is also easier to compute. Assuming I meet new people every day, then each week is independent from each other. Independent probabilities multiply. There are 52 weeks in a year, so I want to know the probability that I did not come into contact with a single COVID patient during the length of this pandemic:</p>
 
 </div>
 </div>
@@ -16661,7 +16661,7 @@ height=293
 <div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">.</span><span class="mi">95</span><span class="o">**</span><span class="mi">52</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">product</span><span class="p">(</span><span class="n">y_smooth</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -16680,7 +16680,7 @@ height=293
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>0.06944284018723361</pre>
+<pre>0.028942672752670515</pre>
 </div>
 
 </div>
@@ -16692,7 +16692,7 @@ height=293
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The probability that I do not come into contact with a COVID positive individual is about 7% if I effectively maintain a safety profile of 95% <em>every single week</em>. Clearly, that's not terribly safe, given how contagious COVID actually is.</p>
+<p>The number above is the probability that I have not come into contact with a single infectious individual this year if I hung out with 2 new people every day of the pandemic to date. Clearly, that's not terribly safe, given how contagious COVID actually is.</p>
 <p>How safe would I have to be to be sure that I had a 95% safety profile over the year? Then, we wish to solve the equation:</p>
 $$
 0.95 = p ^ {52}
