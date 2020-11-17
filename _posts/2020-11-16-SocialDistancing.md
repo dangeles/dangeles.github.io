@@ -1,6 +1,6 @@
 ---
 layout: post
-title: COVID-19: What does it mean to socially distance?
+title: What does it mean to socially distance
 categories: epidemiology pandemic
 ---
 
