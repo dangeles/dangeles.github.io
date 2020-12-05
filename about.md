@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <center>
-<img id="photo of David" src="https://dangeles.github.io/images/main.pdf" width="400">
+<img id="photo of David" src="https://dangeles.github.io/images/main.jpg" width="400">
 </center>
 
 Welcome! I am a computational biologist specializing in genomics, transcription
