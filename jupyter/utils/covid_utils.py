@@ -199,7 +199,7 @@ def plot_smooth(ax, df, cond, intercept = False,
         if len(g) < 15:
             continue
 
-        y = factor * g.cases
+        y = factor * g.normedPopDeaths
         y = y.rolling(window=window, win_type='gaussian',
                       center=True).mean(std=2).round()
 
