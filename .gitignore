@@ -1,3 +1,5 @@
+__pychache__/
+jupyter/.ipynb_checkpoints/
 *.nbconvert.ipynb
 data/
 .ipynb*
