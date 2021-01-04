@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How much is there?
+title: How much COVID is there, exactly?
 categories: biophysics pandemic
 ---
 
