@@ -39,7 +39,7 @@ for 0.001% of all viruses on Earth.
 
 ## Total viral mass if SARS-Cov2 infected all humans on the planet
 This number is easy: If the virus weighs $10^{-15}$ g / virion
-and there are 10^{10} human beings on the planet and each
+and there are $10^{10}$ human beings on the planet and each
 human contains $10^{11}$ virions, then there will be
 $10^{21}$ virion particles once SARS-Cov2 colonizes the
 planet entirely, and the resulting viral mass will be
