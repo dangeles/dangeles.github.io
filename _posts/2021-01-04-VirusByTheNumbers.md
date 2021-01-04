@@ -53,7 +53,7 @@ $10^{-15}$ g this is equivalent to about 100 million H atoms. Therefore,
 the total volume must be at least 100 million times greater than a
 single H atom. The volume of one atom is ~ $10^{-3}$ nm $^3$. That means
 the virus has a volume of at least $10^5$ nm $^3$ =
-$10^5 * 10{-24} = 10^{-19}$ L = $10^{-4}$ fL. Of course, this assumes
+$10^5 * 10^{-24} = 10^{-19}$ L = $10^{-4}$ fL. Of course, this assumes
 optimal packing, which will definitely not be the case--add an extra
 order of magnitude for that reason. So, it's likely the virus measures
 0.001fL in volume.
