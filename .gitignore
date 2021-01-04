@@ -1,4 +1,4 @@
-*.nbconvert.*
+*.nbconvert.ipynb
 data/
 .ipynb*
 _site
