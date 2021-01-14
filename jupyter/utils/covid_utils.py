@@ -51,7 +51,7 @@ def plot_time(df, col, min_cases=100, ymin=100, **kwargs):
         Tau[n] = tau
 
         # plot:
-        plt.plot(x, g[col], lw=5, **kwargs)
+        plt.plot(x, g[col], lw=3, **kwargs)
         plt.plot(x, growth(x, a, tau, b), ls='--', color='black', lw=1)
     # annotate:
     plt.xlabel('Days since {0} cases'.format(min_cases))
@@ -81,7 +81,7 @@ def scatter_plot_per_state(df, CFR=False, xcol='cases', ycol='deaths', ax=None):
                                      center=True).mean(std=2).round()
 
         if n in ['Washington', 'New York', 'Massachusetts', 'New Jersey']:
-            ax.scatter(g[xcol], y, label=n, zorder=np.inf, s=50)
+            ax.scatter(g[xcol], y, label=n, zorder=np.inf, s=25)
             # ax.plot(g[xcol], y, color='black', alpha=0.2)
         else:
             ax.plot(g[xcol], y, color='black', alpha=0.1)
@@ -235,8 +235,8 @@ def plot_smooth(ax, df, cond, intercept = False,
         else:
             # ax.scatter(x, y, label=n, zorder=np.inf, s=35, color=color[n])
             # ax.plot(x, y, zorder=np.inf, lw=1, color=color[n])
-            p = ax.scatter(x, y, label=n, zorder=np.inf, s=35)
-            ax.plot(x, y, zorder=np.inf, lw=1, color=p.get_facecolor()[0] )
+            p = ax.scatter(x, y, label=n, zorder=np.inf, s=15)
+            ax.plot(x, y, zorder=np.inf, lw=2, color=p.get_facecolor()[0])
 
 
 def plot(ax, df, col1, col2, n1=10, n2=10 ** -6, ylab='case',
