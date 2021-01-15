@@ -4,8 +4,6 @@ title: First ever Snowhike!
 categories: adventure
 ---
 
-# First snow hike ever!
-
 I completed my first-ever snowhike on December 20th, 2020 with my friend Katya
 Moniz. She gave me a pair of (enormous) snow-shoes I could use, and we hiked up
 Mt. Percival. We had intended to do the Mt. Percival-Mt. Morgan loop, but we
