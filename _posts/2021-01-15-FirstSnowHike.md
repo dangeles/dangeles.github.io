@@ -16,4 +16,4 @@ On January 9th, I went back, and completed the loop in what was my first solo
 hike of 2021. It was so much fun!
 
 <img id="View from Mt. Percival"
-src="https://dangeles.github.io/images/snowhike.JPG" width="400" class="rotate180">
+src="https://dangeles.github.io/images/snowhike.JPG" width="400">
