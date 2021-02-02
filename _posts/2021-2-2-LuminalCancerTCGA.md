@@ -14,8 +14,13 @@ slightly worse prognosis than *luminal A* cancer.
 # Notebooks
 
 [Data Preparation](https://dangeles.github.io/jupyter/DataPrep/DataPrep.html)
+
 [Exploratory Analysis, PCA, UMAP](https://dangeles.github.io/jupyter/ExploratoryAnalysis/ExploratoryAnalysis.html)
+
 [K-means clustering](https://dangeles.github.io/jupyter/UnsupervisedClustering/UnsupervisedClustering.html)
+
 [Regularized Logistic Regression](https://dangeles.github.io/jupyter/LogisticRegression/LogisticRegression.html)
+
 [Ensemble Classification](https://dangeles.github.io/jupyter/Ensemble/Ensemble.html)
+
 [Expression Visualization](https://dangeles.github.io/jupyter/ExpressionVisualization/ExpressionVisualization.html)
