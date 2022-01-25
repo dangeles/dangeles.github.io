@@ -15,9 +15,8 @@ my Ph.D. in [Biochemistry and Molecular Biophysics](http://www.cce.caltech.edu/c
 at the California Institute of Technology, where I did my graduate work with
 [Paul Sternberg](http://wormlab.caltech.edu/LabMembers/Paul) figuring out how to
 use transcriptomes as phenotypes for genetic analysis in *C. elegans*. Next,
-I did a brief postdoc with [Eric Alm](https://web.mit.edu/almlab/ealm.html) at
-MIT on the gut microbiome. I am currently in the biotech world, but I have
-an appointment as visiting scholar at Northwestern University (2019-2020).
+I did a brief postdoc with Eric Alm at
+MIT on the gut microbiome. I am currently a scientist in [Altos Labs](https://altoslabs.com/), where I work with [Hana El-Samad](https://altoslabs.com/team/principal-investigators-bay-area/hana-el-samad/). I also have a standing appointment as a visiting scholar in Northwestern University, where I collaborate with Ilya Ruvinsky.
 
 
 ## [CV](https://dangeles.github.io/AngelesAlboresDavid_cv.pdf)
