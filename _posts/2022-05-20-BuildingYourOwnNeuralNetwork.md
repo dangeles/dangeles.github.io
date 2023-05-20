@@ -2,7 +2,7 @@
 layout: post
 title: Building your own neural network
 categories: ML
--
+---
 ## So what's the big deal with AI?
 
 It feels like everywhere you turn these days, you hear about Artificial Intelligence (AI). From our phones and laptops to smart home devices, and even in sectors like healthcare, transportation, and finance, AI has ingrained itself into every aspect of our daily lives. But why is AI suddenly such a hot topic? And why is it becoming increasingly important? This post will shed light on these questions and guide you through an example of building a basic Neural Network, one of the powerful algorithms behind AI, from scratch.
