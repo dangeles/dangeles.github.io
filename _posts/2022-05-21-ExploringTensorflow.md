@@ -29,4 +29,6 @@ environment management system. If you don't have it installed, you can
 download it from...
 ```
 
-Here's the rest of the notebook, in the [jupyter notebook](https://dangeles.github.io/jupyter/intro_to_tensorflow.html).
+The blog post follows a fairly standard format: We generate a python 3.9 environment, and populate it with standard python libraries like pandas, numpy, matplotlib. Then we `pip install tensorflow`. ChatGPT suggested a publicly available dataset ([the breast cancer wisconsin diagnostic dataset](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic))), and we fit a neural network to it.
+
+Here's the notebook, in the [jupyter notebook](https://dangeles.github.io/jupyter/intro_to_tensorflow.html).
