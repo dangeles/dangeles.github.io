@@ -34,7 +34,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
   font-weight: bold;
-
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
@@ -44,10 +43,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* CHATGPT introduced a change HERE: Added styling for h1 links, to retain the darker gray color */
 h1 {
   font-size: 30px;
   a {
-    color: inherit;
+    color: $darkerGray;
+    text-decoration: none;
   }
 }
 
@@ -152,6 +153,8 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
+  background-color: #f8f8f8; /* CHATGPT introduced a change HERE: Added a light background color for the masthead */
+  border-bottom: 1px solid #ddd; /* CHATGPT introduced a change HERE: Added a subtle border */
 }
 
 .masthead {
@@ -240,6 +243,10 @@ nav {
 //
 // .main
 //
+
+#main { /* CHATGPT introduced a change HERE: Added styling for #main to provide spacing */
+  padding: 20px 0;
+}
 
 .posts > .post {
   padding-bottom: 2em;
