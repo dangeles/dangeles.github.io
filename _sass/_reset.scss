@@ -51,3 +51,21 @@ table {
 *, *:before, *:after {
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
+
+/* CHATGPT introduced a change HERE: Resetting styles for button and input */
+button, input {
+	margin: 0;
+	font: inherit;
+	color: inherit;
+	background: none;
+	border: none;
+	padding: 0;
+	display: inline-block;
+	text-align: center;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+  }
+  
+  
+  
+  
