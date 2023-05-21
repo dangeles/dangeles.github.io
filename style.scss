@@ -290,6 +290,19 @@ footer {
   text-align: center;
 }
 
+// Define your class styles here.
+.category-link {
+  color: $blue; // using your defined color variable
+  text-decoration: none; // remove underline from link
+  font-weight: bold; // make the link bold
+  transition: color 0.3s ease; // smooth color transition for hover
+
+  &:hover {
+      color: darken($blue, 15%); // darken the color on hover
+  }
+}
+
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
