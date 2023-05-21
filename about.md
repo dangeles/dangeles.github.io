@@ -8,8 +8,8 @@ permalink: /about/
 <img id="photo of David" src="https://dangeles.github.io/images/main.jpg" width="400">
 </center>
 
-Hi! I am a computational biologist specializing in applying artificial intelligence methods to biological data, with a special emphasis on transcriptomics.I obtained
-my Ph.D. in [Biochemistry and Molecular Biophysics](http://www.cce.caltech.edu/content/biochemistry-and-molecular-biophysics)
+Hi! I am a computational biologist specializing in applying artificial intelligence methods to biological data, with a special emphasis on transcriptomics. I obtained
+my Ph.D. in [Biochemistry and Molecular Biophysics](https://www.cce.caltech.edu/graduate/graduate-biochemistry-and-molecular-biophysics)
 at the California Institute of Technology, where I did my graduate work with
 [Paul Sternberg](http://wormlab.caltech.edu/LabMembers/Paul) figuring out how to
 use transcriptomes as phenotypes for genetic analysis in *C. elegans*. Next,
