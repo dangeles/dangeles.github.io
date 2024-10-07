@@ -28,10 +28,11 @@ Currently, I'm working at a small startup and run my own consulting LLC, offerin
   - Perturbational biology (Perturb-seq, single-cell RNA-seq, ATAC-seq)
   - Development of inferential algorithms and dimensionality reduction methods
   - Python programming, mathematical biology, and statistical mechanics
+  - Experience with whole genome sequencing and NGS core facility setup
 
 - **Molecular Genetics**:
-  - Molecular, experimental biologist trained in developmental genetics
-  - I am a trained embryologist, having completed the prestigious Embryology course at the Marine Biological Laboratory in Woods Hole, MA
+  - Trained in experimental genetics and molecular biology
+  - I completed the prestigious Embryology course at the Marine Biological Laboratory in Woods Hole, MA
   - I have experience working with a range of organisms, including pigs, macaques, nematodes, and bacteria
   - My unique background gives me unique insight into multi-scale and translational issues in biology, understanding how *in vitro* cell culture models relate to *in vivo* systems
 
