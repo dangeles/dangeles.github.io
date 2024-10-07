@@ -1,7 +1,7 @@
 site: Argon Jekyll Theme
 
 url: https://argon.jekyllthemes.io
-baseurl: 
+baseurl:
 
 collections:
   pages:
@@ -29,12 +29,14 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "post" 
+      layout: "post"
 
 sass:
   sass_dir: assets/styles
   style: compressed
   sourcemap: never
+  load_paths:
+    - _sass
 
 plugins:
   - jekyll-paginate
@@ -42,4 +44,15 @@ plugins:
 
 paginate: 6
 paginate_path: "/blog/page:num/"
-  
+
+navigation:
+  - text: "Home"
+    url: "/"
+  - text: "About Me"
+    url: "/about"
+  - text: "Projects & Publications"
+    url: "/projects"
+  - text: "Blog"
+    url: "/blog"
+  - text: "Contact"
+    url: "/contact"
