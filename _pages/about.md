@@ -1,14 +1,19 @@
 ---
 layout: default
 title: "David Angeles-Albores"
+subtitle: A computational biologist musing about genetics and evolution using AI
+featured_image: /assets/img/sections/broofoac.jpg
 permalink: /about/
 ---
+
+
+# A bit about me
 
 Hi! I'm a computational biologist and AI/ML consultant with a passion for translating complex biological data into actionable insights. With a unique blend of expertise in both wet-lab methodologies and quantitative analysis, I specialize in bridging the gap between experimental biology and computational modeling.
 
 ### Professional Background
 
-I hold a Ph.D. in Biochemistry and Molecular Biophysics from **Caltech** (2013-2018), following a B.Sc. in Molecular and Cellular Biology from **Cornell University** (2009-2013). My postdoctoral research at **MIT** in 2019 resulted in several peer-reviewed publications in a short span.
+I hold a Ph.D. in Biochemistry and Molecular Biophysics from **Caltech**, following a B.A. in Molecular and Cellular Biology from **Cornell University**. I was also a postdoctoral fellow at **MIT** in the department of bioengineering, where I published several peer-reviewed articles.
 
 Throughout my career, I've held pivotal roles at:
 
@@ -25,7 +30,7 @@ Currently, I'm working at a small startup and run my own consulting LLC, offerin
   - Python programming, mathematical biology, and statistical mechanics
 
 - **Molecular Genetics**:
-  - Fully trained molecular biologist with expertise in developmental genetics
+  - Molecular, experimental biologist trained in developmental genetics
   - I am a trained embryologist, having completed the prestigious Embryology course at the Marine Biological Laboratory in Woods Hole, MA
   - I have experience working with a range of organisms, including pigs, macaques, nematodes, and bacteria
   - My unique background gives me unique insight into multi-scale and translational issues in biology, understanding how *in vitro* cell culture models relate to *in vivo* systems
@@ -41,10 +46,6 @@ My unique strength lies in my ability to convey complex computational concepts i
 ### Research Interests
 
 I'm particularly passionate about understanding gene regulation, transcriptome dynamics, and the integration of machine learning with biological data to drive innovation in healthcare and biotechnology.
-
-### Projects
-
-You can read about some of the exciting projects I've been involved in on the [Projects](/projects/) page.
 
 ### Personal Interests
 
