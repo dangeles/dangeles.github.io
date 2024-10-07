@@ -1,10 +1,8 @@
 ---
 title: Contact
-subtitle: This theme comes with a built-in contact form that's free and easy to set up.
+subtitle: I would love to hear from you! Feel free to reach out with any questions or comments.
 type: contact
-description: This theme comes with a built-in contact form that's free and easy to set up.
+description: Use this form to get in touch with me. I'll get back to you as soon as possible.
 ---
 
 {% include components/headers/contact-page-header.html %}
-
-{% include contact-form.html %}
