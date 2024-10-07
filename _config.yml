@@ -1,7 +1,7 @@
 site: Argon Jekyll Theme
 
 url: https://argon.jekyllthemes.io
-baseurl:
+baseurl: ""
 
 collections:
   pages:
@@ -13,19 +13,16 @@ collections:
     type: "post"
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
