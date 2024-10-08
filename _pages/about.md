@@ -11,6 +11,14 @@ permalink: /about/
 
 Hi! I'm a computational biologist and AI/ML consultant with a passion for translating complex biological data into actionable insights. With a unique blend of expertise in both wet-lab methodologies and quantitative analysis, I specialize in bridging the gap between experimental biology and computational modeling.
 
+My unique strength lies in my ability to convey complex computational concepts in simple terms while deeply understanding the biological and computational foundations of a scientific research project. My goal as a member of your scientific team will always be
+to propose concrete, testable hypotheses as a result of quantitative data analyses arising from ML/AI; and to develop powerful
+experimental frameworks capable of generating training data for AI/ML models that maximizes their probability of generating useful
+answers.
+
+I'm particularly passionate about understanding gene regulation, transcriptome dynamics, and the integration of machine learning with biological data to drive innovation in healthcare and biotechnology. I have worked on a fairly wide variety of projects, and I
+particularly enjoy learning and mastering new fields.
+
 ### Professional Background
 
 I hold a Ph.D. in Biochemistry and Molecular Biophysics from **Caltech**, following a B.A. in Molecular and Cellular Biology from **Cornell University**. I was also a postdoctoral fellow at **MIT** in the department of bioengineering, where I published several peer-reviewed articles.
@@ -39,14 +47,6 @@ Currently, I'm working at a small startup and run my own consulting LLC, offerin
 - **Interdisciplinary Team Building**:
   - Proven ability to assemble and lead cross-functional teams
   - Skilled at facilitating communication between computational and biological scientists
-
-### Unique Value Proposition
-
-My unique strength lies in my ability to convey complex computational concepts in layman's terms while deeply understanding the biological foundations of projects. This dual expertise enables me to propose concrete experiments and develop generalizable AI models rooted in biological reality.
-
-### Research Interests
-
-I'm particularly passionate about understanding gene regulation, transcriptome dynamics, and the integration of machine learning with biological data to drive innovation in healthcare and biotechnology.
 
 ### Personal Interests
 
