@@ -12,7 +12,7 @@ home_settings:
   theme: "landing"
 
 blog_settings:
-  theme: "narrow"
+  theme: "basic"
   read_more: "yes"
 
 menu_settings:
@@ -21,7 +21,7 @@ menu_settings:
       url: "/"
     - title: "About Me"
       url: "/about"
-    - title: "Projects & Publications"
+    - title: "Portfolio"
       url: "/projects"
     - title: "Blog"
       url: "/blog"
@@ -29,10 +29,10 @@ menu_settings:
       url: "/contact"
 
 footer_settings:
-  footer_tagline: "© 2023 David Angeles-Albores"
+  footer_tagline: "© 2024 David Angeles-Albores"
 
 contact_settings:
-  form_action: "https://formspree.io/your-email@example.com"
+  form_action: "https://formspree.io/davidangelesalbores@gmail.com"
   confirmation_url: "/thanks"
   email_subject: "Contact form submission"
   send_button_text: "Send Message"
@@ -47,16 +47,19 @@ social_settings:
   tumblr_url: ""
   dribbble_url: ""
   behance_url: ""
-  github_url: "https://github.com/yourusername"
+  github_url: "https://github.com/dangeles"
   reddit_url: ""
-  linkedin_url: "https://www.linkedin.com/in/yourprofile"
+  linkedin_url: "https://www.linkedin.com/in/dangelesgenetics"
 
 authors:
   david:
-    name: "David Angeles-Albores"
-    picture: "/assets/img/faces/david.jpg"
+    name: David
+    picture: /assets/img/faces/david.tiff
+  tom:
+    name: Tom
+    picture: /assets/img/faces/team-1.jpg
 
 advanced_settings:
-  analytics_code: 
+  google_analytics: G-ESQ24FE2J1
   header_js: 
   footer_js: 

@@ -3,8 +3,6 @@ site: Argon Jekyll Theme
 url: https://argon.jekyllthemes.io
 baseurl: ""
 
-google_analytics: G-ESQ24FE2J1
-
 collections:
   pages:
     output: true
@@ -49,7 +47,7 @@ navigation:
     url: "/"
   - text: "About Me"
     url: "/about"
-  - text: "Projects & Publications"
+  - text: "Portfolio"
     url: "/projects"
   - text: "Blog"
     url: "/blog"
