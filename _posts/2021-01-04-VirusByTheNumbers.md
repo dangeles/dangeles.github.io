@@ -2,6 +2,8 @@
 layout: post
 title: How much COVID is there, exactly?
 categories: biophysics pandemic
+author: David
+description: A back of the envelope calculation of the total mass and volume of SARS-Cov2 in an infected individual and in the world where we discover that if Cov-2 infected all of humanity, it would make a viral mass roughly the size of a polar bear.
 ---
 
 # SARS-Cov2 by the numbers

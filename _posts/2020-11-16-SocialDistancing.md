@@ -2,6 +2,8 @@
 layout: post
 title: What does it mean to socially distance
 categories: epidemiology pandemic
+author: David
+description: In this post, I work through the math to figure out exactly how important it is for us to be strict about social distancing. There's been a lot said about the community benefits of distancing, but I wanted to take a look at social distancing from the perspective of an individual, not a society.
 ---
 
 I am SO tired of socially distancing. I want to hang out with 1 or 2 different

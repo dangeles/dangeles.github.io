@@ -2,6 +2,8 @@
 layout: post
 title: Building your own neural network
 categories: ML
+author: David
+description: Have you ever wanted to know how a neural network works? In this post, I will show you how to build a basic neural network from scratch.
 ---
 ## So what's the big deal with AI?
 

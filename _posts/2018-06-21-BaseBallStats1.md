@@ -2,6 +2,8 @@
 layout: post
 title: Introduction to Empirical Bayes
 categories: science programming Bayes R
+author: David
+description: I recently stumbled upon empirical bayes, and I was struck by how intuitive and useful this method can be. In this blog post, I study this method in the context of baseball statistics.
 ---
 
 A few months ago, I stumbled on to the wonderful book 'Introduction to Empirical

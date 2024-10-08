@@ -2,6 +2,8 @@
 layout: post
 title: Back of the envelope calculation of R_0 for the SARS-Cov-2 Delta strain
 categories: pandemic science epidemiology
+author: David
+description: A quick back of the envelope calculation of the viral reproductive number for the SARS-Cov-2 Delta strain based on readily available data. 
 ---
 
 A few months ago, the Delta strain made its conspicuous landing in the US. This strain is more contagious than the original SARS-Cov-2, but by how much?

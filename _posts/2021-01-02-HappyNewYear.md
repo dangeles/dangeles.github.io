@@ -2,6 +2,8 @@
 layout: post
 title: Happy New Year! How effective does a vaccine have to be to eliminate SARS-Cov2 from the planet?
 categories: epidemiology pandemic
+author: David
+description: A back of the envelope calculation of the total fraction of the population that must be protected by a vaccine to drive SARS-Cov2 to extinction.
 ---
 
 The Moderna, Pfizer and Astrazeneca vaccines are out! What an exciting way to
