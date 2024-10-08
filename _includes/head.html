@@ -1,21 +1,13 @@
-{% include analytics.html %}
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ESQ24FE2J1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-ESQ24FE2J1');
-</script>
 
 <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet">
 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     tex2jax: {
-      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-      inlineMath: [['$','$']]
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true
     }
   });
 </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML" or src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
