@@ -2,7 +2,7 @@
 layout: default
 title: "David Angeles-Albores"
 subtitle: A computational biologist musing about genetics and evolution using AI
-featured_image: /assets/img/sections/sf_landscape.tiff
+featured_image: /assets/img/sections/sf_landscape.jpeg
 permalink: /about/
 ---
 
