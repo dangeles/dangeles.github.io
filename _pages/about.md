@@ -11,10 +11,7 @@ permalink: /about/
 
 Hi! I'm a computational biologist and AI/ML consultant with a passion for translating complex biological data into actionable insights. With a unique blend of expertise in both wet-lab methodologies and quantitative analysis, I specialize in bridging the gap between experimental biology and computational modeling.
 
-My unique strength lies in my ability to convey complex computational concepts in simple terms while deeply understanding the biological and computational foundations of a scientific research project. My goal as a member of your scientific team will always be
-to propose concrete, testable hypotheses as a result of quantitative data analyses arising from ML/AI; and to develop powerful
-experimental frameworks capable of generating training data for AI/ML models that maximizes their probability of generating useful
-answers.
+My unique strength lies in my ability to convey complex computational concepts in simple terms while deeply understanding the biological and computational foundations of a scientific research project. My goal as a member of your scientific team will always be to propose concrete, testable hypotheses as a result of quantitative data analyses arising from ML/AI; and to develop powerful experimental frameworks capable of generating training data for AI/ML models that maximizes their probability of generating useful answers.
 
 I'm particularly passionate about understanding gene regulation, transcriptome dynamics, and the integration of machine learning with biological data to drive innovation in healthcare and biotechnology. I have worked on a fairly wide variety of projects, and I
 particularly enjoy learning and mastering new fields.
@@ -26,9 +23,9 @@ I hold a Ph.D. in Biochemistry and Molecular Biophysics from **Caltech**, follow
 Throughout my career, I've held pivotal roles at:
 
 - **eGenesis**: Established the computational biology core and performed critical computational studies that enabled the first compassionate use transplantation of a pig kidney into a human patient by stabilizing gene expression levels of immunosuppressive payload genes through the design of pan-tissue, low burstiness promoters.
-- **Altos Labs**: As one of the first hires at this prestigious unicorn startup, I was a key driver and developer of multiple AI/ML initiatives. I led both wet-lab and computational investigations into partial reprogramming translational programs. Additionally, I organized the company's inaugural symposium, developing a matchmaking algorithm to optimize workshop assignments for over 500 participants.
+- **Altos Labs**: As one of the first hires at this prestigious unicorn startup, I was a key driver and developer of multiple successful AI/ML initiatives. I led both wet-lab and computational investigations into partial reprogramming translational programs. Additionally, I organized the company's inaugural symposium, developing a matchmaking algorithm to optimize workshop assignments for over 500 participants.
 
-Currently, I'm working at a small startup and run my own consulting LLC, offering services in AI/ML and computational biology.
+I currently lead an small but mighty interdisciplinary research team at a stealth biotech startup. I also run my own consulting LLC, offering services in AI/ML and computational biology.
 
 ### My Expertise
 
