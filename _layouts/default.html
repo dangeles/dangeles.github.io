@@ -36,9 +36,21 @@
   <link href="{{ "/assets/css/nucleo-svg.css" | relative_url }}" rel="stylesheet" />
   <!-- CSS Files -->
   <link rel="stylesheet" href="{{ "/assets/styles/styles.css" | relative_url }}" rel="stylesheet"> 
+
   {% if site.data.settings.advanced_settings.analytics_code %}
   <!-- Analytics Code -->
-  {{ site.data.settings.advanced_settings.analytics_code }}
+  <!-- {{ site.data.settings.advanced_settings.analytics_code }} -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.data.settings.advanced_settings.analytics_code }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+ 
+      gtag('config', '{{ site.data.settings.advanced_settings.analytics_code }}', {
+        'page_path': '{{ site.baseurl }}{{ page.url }}',
+        'page_title': '{{ page.title | replace: "'", "\\'" }}'
+      });
+    </script>
   {% endif %}
 
   {% if site.data.settings.advanced_settings.header_js %}
