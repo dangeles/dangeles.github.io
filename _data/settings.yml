@@ -1,5 +1,5 @@
 basic_settings:
-  site_title: "David Angeles-Albores"
+  site_title: "David Angeles-Albores, Ph.D."
   favicon_image: "/assets/img/favicon.png"
 
 header_settings:
@@ -55,9 +55,6 @@ authors:
   david:
     name: David
     picture: /assets/img/faces/david.tiff
-  tom:
-    name: Tom
-    picture: /assets/img/faces/team-1.jpg
 
 advanced_settings:
   google_analytics: G-ESQ24FE2J1
