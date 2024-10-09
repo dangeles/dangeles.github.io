@@ -16,16 +16,20 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title"
-    content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}">
+    content="{% if page.url == '/' %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}">
   <meta name="twitter:description" content="{{ page.description }}">
-  <meta name="twitter:image:src" content="{{ page.featured_image | absolute_url }}">
+  <!-- <meta name="twitter:image:src" content="{{ page.featured_image | absolute_url }}"> -->
+  <meta name="twitter:image:src"
+  content="{% if page.url == '/' %}{{ '/assets/img/icons/thumbnail.png' | relative_url }}{% elsif page.featured_image %}{{ page.featured_image | absolute_url }}{% else %}{{ '/assets/img/icons/thumbnail.png' | relative_url }}{% endif %}">
 
   <!-- Facebook OpenGraph -->
   <meta property="og:title"
-    content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}" />
+    content="{% if page.url == '/' %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}" />
   <meta property="og:description" content="{{ page.description }}" />
-  <meta property="og:image" content="{{ page.featured_image | absolute_url }}" />
-
+  <!-- <meta property="og:image" content="{{ page.featured_image | absolute_url }}" /> -->
+  <meta property="og:image"
+  content="{% if page.url == '/' %}{{ '/assets/img/icons/thumbnail.png' | relative_url }}{% elsif page.featured_image %}{{ page.featured_image | absolute_url }}{% else %}{{ '/assets/img/icons/thumbnail.png' | relative_url }}{% endif %}" />
+  
   <!--  Fonts and icons -->
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   <!-- Nucleo Icons -->
