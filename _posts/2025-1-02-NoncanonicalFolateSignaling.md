@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Generalization is Hard
+title: Happy 2025! A Signaling and Mechanical Role for Folate in Neural Tube Closure
 categories: AI biotech
 author: David
 description: Happy 2025! May it be filled with happiness and exciting science. In this blog post, I discuss a paper I read earlier today on a signaling and mechanical role for folate in neural tube closure.
