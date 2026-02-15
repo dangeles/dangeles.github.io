@@ -1,6 +1,7 @@
 ---
 title: Blog Example - Narrow Grid
 subtitle: Perfect for varied post types
+published: false
 ---
 
 ### Narrow Grid

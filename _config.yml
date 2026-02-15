@@ -1,7 +1,17 @@
-site: Argon Jekyll Theme
-
-url: https://argon.jekyllthemes.io
+title: "David Angeles-Albores, Ph.D."
+description: "Computational biologist and AI/ML consultant specializing in perturbational biology, single-cell genomics, and translational research."
+url: https://dangeles.github.io
 baseurl: ""
+lang: en
+
+author:
+  name: "David Angeles-Albores"
+  url: "https://dangeles.github.io"
+
+social:
+  links:
+    - https://github.com/dangeles
+    - https://www.linkedin.com/in/dangelesgenetics
 
 collections:
   pages:
@@ -38,6 +48,7 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 paginate: 6
 paginate_path: "/blog/page:num/"

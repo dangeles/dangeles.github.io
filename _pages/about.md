@@ -18,14 +18,14 @@ particularly enjoy learning and mastering new fields.
 
 ### Professional Background
 
-I hold a Ph.D. in Biochemistry and Molecular Biophysics from **Caltech**, following a B.A. in Molecular and Cellular Biology from **Cornell University**. I was also a postdoctoral fellow at **MIT** in the department of bioengineering, where I published several peer-reviewed articles.
+I hold a Ph.D. in Biochemistry and Molecular Biophysics from **Caltech**, following a B.A., *cum laude*, in Computational and Molecular Biology from **Cornell University**. I was also a postdoctoral fellow at **MIT** in the Department of Biological Engineering, where I published several peer-reviewed articles.
 
 Throughout my career, I've held pivotal roles at:
 
 - **eGenesis**: Established the computational biology core and performed critical computational studies that enabled the first compassionate use transplantation of a pig kidney into a human patient by stabilizing gene expression levels of immunosuppressive payload genes through the design of pan-tissue, low burstiness promoters.
 - **Altos Labs**: As one of the first hires at this prestigious unicorn startup, I was a key driver and developer of multiple successful AI/ML initiatives. I led both wet-lab and computational investigations into partial reprogramming translational programs. Additionally, I organized the company's inaugural symposium, developing a matchmaking algorithm to optimize workshop assignments for over 500 participants.
 
-I currently lead an small but mighty interdisciplinary research team at a stealth biotech startup. I also run my own consulting LLC, offering services in AI/ML and computational biology.
+I currently lead a small but mighty interdisciplinary research team at a stealth biotech startup. I also run my own consulting LLC, offering services in AI/ML and computational biology.
 
 ### My Expertise
 

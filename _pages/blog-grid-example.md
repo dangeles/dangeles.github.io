@@ -1,6 +1,7 @@
 ---
 title: Blog Example - Wide Grid
 subtitle: Perfect for visual posts
+published: false
 ---
 
 ### Wide Grid

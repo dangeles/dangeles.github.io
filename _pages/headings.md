@@ -2,6 +2,7 @@
 title: "Headings"
 subtitle: "Build something great with our products"
 featured_image: assets/img/demo/blog-02.jpg
+published: false
 ---
 
 --- 

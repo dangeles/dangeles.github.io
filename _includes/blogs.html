@@ -135,7 +135,7 @@
                                     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
                                 </h3>
                                 <p class="card-description">
-                                    {{ post.description }} <a href="{{ post.url | relative_url }}"> Read More </a>
+                                    {{ post.description }} <a href="{{ post.url | relative_url }}" aria-label="Read more about {{ post.title }}"> Read More </a>
                                 </p>
                                 {% for author in site.data.settings.authors %}
                                     {% if post.author == author[1].name %}

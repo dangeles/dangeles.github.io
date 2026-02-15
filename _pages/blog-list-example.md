@@ -1,6 +1,7 @@
 ---
-title: Blog Example - List 
+title: Blog Example - List
 subtitle: Perfect for text heavy blog posts
+published: false
 ---
 
 ### List

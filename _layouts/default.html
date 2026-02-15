@@ -39,7 +39,9 @@
   <link href="{{ "/assets/css/font-awesome.css" | relative_url }}" rel="stylesheet" />
   <link href="{{ "/assets/css/nucleo-svg.css" | relative_url }}" rel="stylesheet" />
   <!-- CSS Files -->
-  <link rel="stylesheet" href="{{ "/assets/styles/styles.css" | relative_url }}" rel="stylesheet"> 
+  <link rel="stylesheet" href="{{ "/assets/styles/styles.css" | relative_url }}">
+
+  {% seo %}
 
   {% if site.data.settings.advanced_settings.analytics_code %}
   <!-- Analytics Code -->
@@ -63,6 +65,7 @@
 </head>
 
 <body>
+  <a href="#main" class="sr-only sr-only-focusable">Skip to main content</a>
   {% include header.html %}
   <div class="wrapper page">
     {% if page.url != "/" and page.collection != "posts" and page.type != "blogListing" and page.type != "contact" %}
@@ -94,9 +97,9 @@
     {% endif %}
     {% endif %}
 
-    <div id="main" class="container">
+    <main id="main" class="container">
       {{content}}
-    </div>
+    </main>
   </div>
 
 
@@ -106,9 +109,6 @@
   <!-- Extra Footer JS Code --> {{ site.data.settings.advanced_settings.footer_js }}
   {% endif %}
 
-</body>
-
-</html>
 </body>
 
 </html>
