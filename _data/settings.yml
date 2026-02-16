@@ -25,6 +25,8 @@ menu_settings:
       url: "/projects"
     - title: "Blog"
       url: "/blog"
+    - title: "Talks"
+      url: "/talks"
     - title: "Contact"
       url: "/contact"
 
@@ -54,7 +56,7 @@ social_settings:
 authors:
   david:
     name: David
-    picture: /assets/img/faces/david.tiff
+    picture: /assets/img/faces/david.jpeg
 
 advanced_settings:
   google_analytics: G-ESQ24FE2J1

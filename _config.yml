@@ -62,5 +62,7 @@ navigation:
     url: "/projects"
   - text: "Blog"
     url: "/blog"
+  - text: "Talks"
+    url: "/talks"
   - text: "Contact"
     url: "/contact"

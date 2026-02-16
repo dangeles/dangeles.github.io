@@ -1,15 +1,19 @@
+# Deprecated / archived content
 deprecated/
+
+# Jupyter / Python
 *.ipynb
+*.nbconvert.ipynb
+.ipynb*
 data/
-__pychache__/
+__pycache__/
 *.pyc
 jupyter/.ipynb_checkpoints/
-*.nbconvert.ipynb
-data/
-.ipynb*
-_site
+
+# Jekyll build
+_site/
 .DS_Store
-.jekyll
+.jekyll-cache/
 .jekyll-metadata
 .bundle
 .sass-cache
@@ -17,5 +21,13 @@ Gemfile.lock
 node_modules
 package.json
 
+# Data / build artifacts
+*.sqlite
+*.js.map
+
+# Editor / workspace
 _posts/.Rhistory
 dangeles.github.io.code-workspace
+
+# Claude
+.claude/
