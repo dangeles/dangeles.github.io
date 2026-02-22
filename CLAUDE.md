@@ -45,12 +45,78 @@ The blog listing layout is controlled by `_data/settings.yml` under `blog_settin
 - `blogsHome.html` (now `blogs-home.html`) selects the layout based on this setting
 - Available layouts: `grid`, `narrow`, `basic`, `basicLanding` (in `_includes/components/blog/`)
 
-## Build Commands
+## Environment Setup (REQUIRED)
+
+All Jekyll commands require the `pages` micromamba environment. This provides:
+- Ruby 3.3.3 (at `/Users/davidangelesalbores/Y/envs/pages/`)
+- Jekyll 4.3.4 (at `.../share/rubygems/bin/jekyll`)
+- Bundler 2.5.21
+
+**Activate before any build or serve command:**
+```bash
+micromamba activate pages       # in an interactive shell (user's normal workflow)
 ```
-bundle install                  # Install Ruby dependencies
+
+**For scripted/non-interactive use (e.g., from Claude Code Bash tool):**
+```bash
+eval "$(micromamba shell hook --shell=zsh)" && micromamba activate pages
+```
+
+Do NOT use the system Ruby (`/usr/bin/ruby` -- it is 2.6, too old) or attempt
+`micromamba run -n pages` (gem paths are not set correctly without activation).
+
+## Build Commands
+
+Always run with `pages` env activated (see above):
+```
 bundle exec jekyll serve        # Local development server (http://localhost:4000)
 bundle exec jekyll build        # Build static site to _site/
+bundle install                  # Only needed after Gemfile changes
 ```
+
+## Active Worktrees
+
+This repo uses a git worktree for major refactoring work:
+
+| Branch | Path | Purpose |
+|--------|------|---------|
+| `master` | `/Users/davidangelesalbores/repos/dangeles.github.io/` | Live site (GitHub Pages deploys from here) |
+| `refactor/website-major` | `.worktrees/refactor/website-major/` | Major site refactor (isolated) |
+
+The `.worktrees/` directory is gitignored. Build commands work identically in both
+directories -- just activate the `pages` env and run `bundle exec jekyll serve`.
+
+## Branch Routing Rules (READ THIS BEFORE MAKING ANY CHANGE)
+
+**Default: if in doubt, ask before touching `master`.**
+
+### Make changes on `master` when:
+- Writing or editing a **blog post** (`_posts/`)
+- Fixing a **typo or broken link** in existing content
+- Adding **talk PDFs** or other static assets unrelated to the refactor
+- Updating `_data/settings.yml` for **content-only** changes (e.g., social links, bio text)
+- Any change that should go **live immediately** on dangeles.github.io
+
+### Make changes on `refactor/website-major` (the worktree) when:
+- Modifying **layouts** (`_layouts/`)
+- Modifying **includes/components** (`_includes/`)
+- Changing **Sass/CSS** (`_sass/`, `assets/css/`)
+- Restructuring **navigation** or site-wide configuration (`_config.yml`, `_data/settings.yml` structure)
+- Moving, renaming, or reorganizing **directories**
+- Any change that would **break or visually alter** the live site during development
+
+### Ambiguous cases -- always ask:
+- Changes to `index.html` or `blog/index.html` (could be content or structural)
+- New pages in `_pages/` (content, but may require nav changes that belong in refactor)
+- Dependency or plugin changes (`Gemfile`)
+
+### Merging `refactor/website-major` back to `master`:
+1. Run `bundle exec jekyll build` in the worktree -- must succeed with zero errors
+2. Visually verify with `bundle exec jekyll serve` (check nav, posts, images)
+3. Confirm navigation consistent in both `_config.yml` and `_data/settings.yml`
+4. Open a PR on GitHub for final diff review before merging
+5. Use **rebase merge** (clean history) or **squash merge** (if WIP commits are messy)
+6. After merge, verify GitHub Actions build succeeds before closing the PR
 
 ## Key Files
 - `_config.yml` -- Jekyll configuration (collections, permalinks, plugins, navigation)
