@@ -31,3 +31,6 @@ dangeles.github.io.code-workspace
 
 # Claude
 .claude/
+
+# Git worktrees
+.worktrees/
