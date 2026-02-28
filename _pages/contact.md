@@ -1,11 +1,11 @@
 ---
-layout: default
+layout: page
 title: Contact
-description: "Get in touch with David Angeles-Albores."
+description: "Contact David Angeles-Albores for research collaborations, consulting opportunities, or scientific discussions."
 permalink: /contact/
 ---
 
-<div class="content-wrap" style="padding-top: 3rem; padding-bottom: 3rem;">
+<div>
 
 <p>I'm always happy to hear from researchers, collaborators, founders, and students. Fill in the form below or find me through the links at the bottom of this page.</p>
 

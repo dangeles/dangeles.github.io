@@ -1,15 +1,16 @@
 ---
-layout: default
+layout: page
 title: Research
 subtitle: Selected projects, publications, and talks
+description: "Selected research projects, publications, and conference talks by David Angeles-Albores — computational biologist specializing in ML/AI, single-cell genomics, and tissue replacement."
 permalink: /research/
 ---
 
-<div class="research-wrap content-wrap">
+<div class="research-wrap" markdown="1">
 
 ## Industry Projects
 
-<div class="research-list">
+<div class="research-list" markdown="1">
 
 ### Computationally designed promoters for pig humanization
 *eGenesis*
@@ -44,7 +45,7 @@ I conceptualized and led the formation of a cross-functional team to develop mul
 
 ## Talks
 
-<div class="talks-list">
+<div class="talks-list" markdown="1">
 
 - **Worm Meeting 2021** — [View PDF]({{ '/talks/WormMeeting2021.pdf' | relative_url }})
 - **Transcriptomes as Phenotypes** — ASBMB, May 2019 — [View PDF]({{ '/talks/20190509.ASBMB.TranscriptomesAsPhenotypes.pdf' | relative_url }})

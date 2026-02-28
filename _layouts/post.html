@@ -20,7 +20,7 @@ layout: default
     <a href="{{ page.previous.url | relative_url }}">← {{ page.previous.title }}</a>
     {% endif %}
     {% if page.next.url %}
-    <a href="{{ page.next.url | relative_url }}" style="margin-left: auto">{{ page.next.title }} →</a>
+    <a href="{{ page.next.url | relative_url }}" class="post-nav-next">{{ page.next.title }} →</a>
     {% endif %}
   </nav>
 </article>

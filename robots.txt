@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dangeles.github.io/sitemap.xml

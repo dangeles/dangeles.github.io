@@ -3,12 +3,34 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.url == "/" %}{{ site.title }}{% else %}{{ page.title }} — {{ site.data.settings.basic_settings.site_title }}{% endif %}</title>
-  <meta name="description" content="{{ page.description | default: site.description }}">
   <link rel="shortcut icon" href="{{ site.data.settings.basic_settings.favicon_image | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
   {% seo %}
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "David Angeles-Albores",
+    "url": "https://dangeles.github.io",
+    "jobTitle": "Executive & Founder Scientist",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Genesis",
+      "url": "https://genesis.bio"
+    },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "California Institute of Technology" },
+      { "@type": "CollegeOrUniversity", "name": "Cornell University" }
+    ],
+    "sameAs": [
+      "https://github.com/dangeles",
+      "https://www.linkedin.com/in/dangelesgenetics",
+      "https://scholar.google.es/citations?hl=en&pli=1&user=03C2DtQAAAAJ"
+    ]
+  }
+  </script>
 
   {% if site.data.settings.advanced_settings.analytics_code %}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.data.settings.advanced_settings.analytics_code }}"></script>

@@ -1,7 +1,9 @@
 ---
-layout: default
-title: "David Angeles-Albores"
+layout: page
+title: "About"
+heading: "David Angeles-Albores"
 subtitle: "Executive & Founder Scientist · The Organogenesis and Tissue Replacement Lab"
+description: "Computational biologist and founder scientist working at the intersection of ML/AI, single-cell genomics, and tissue replacement. Ph.D. Caltech, postdoc MIT."
 featured_image: /assets/img/sections/sf_landscape.jpeg
 permalink: /about/
 ---

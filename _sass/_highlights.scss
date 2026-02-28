@@ -1,6 +1,6 @@
 // Syntax highlighting
 .highlight {
-  background: #f8f8f8;
+  background: $color-code-bg;
   border-radius: 4px;
   padding: $space-sm;
   overflow-x: auto;
@@ -13,7 +13,7 @@
 code {
   font-family: $font-mono;
   font-size: 0.875em;
-  background: #f4f4f4;
+  background: $color-code-bg;
   padding: 0.1em 0.3em;
   border-radius: 3px;
 }

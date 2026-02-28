@@ -11,5 +11,6 @@ group :jekyll_plugins do
   gem 'jekyll-paginate'
   gem 'jekyll-sitemap'
   gem 'jekyll-seo-tag'
+  gem 'jekyll-feed'
   gem 'jekyll-sass-converter', '~> 2.1'
 end
