@@ -35,7 +35,7 @@ As Sr. Computational Scientist, I led a matrixed team of four wet-lab scientists
 ### Multimodal AI initiatives
 *Altos Labs*
 
-I conceptualized and led the formation of a cross-functional team to develop multimodal machine learning models. I led the team to develop ML models, collect training data, and develop experimental methods for data collection.
+I conceptualized and led the formation of a cross-functional team to develop multimodal machine learning models. I led the team through model development, training data collection, and experimental methods.
 
 **Methods:** AI/ML development · Cross-functional leadership
 

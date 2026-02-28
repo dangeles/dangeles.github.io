@@ -13,20 +13,14 @@ permalink: /cdc.html
 ## What is [*Clubes de Ciencia (CdeC)*](https://www.clubesdeciencia.mx/)?
 
 *Clubes de Ciencia*, or Science Clubs, is an educational initiative led entirely
-by graduate students. It's very simple-once a year, graduate students from around
-the world are paired with a graduate student based in Mexico to teach a week-long
-intensive workshop on a scientific subject of their choosing. What started out
-as a small number of Mexican graduate students trying to teach science in our
-home country has rapidly grown into a major initiative that offers almost 50
-workshops in 5+ cities in Mexico. Additionally, graduate students from other
-Latin American countries have adopted this model, and as a result *Clubes* is
-rapidly expanding into other countries, including Colombia and Peru.
+by graduate students. Once a year, graduate students from around the world are
+paired with a graduate student based in Mexico to teach a week-long intensive
+workshop on a scientific subject of their choosing. The initiative now offers
+almost 50 workshops in 5+ cities in Mexico, and graduate students from Colombia,
+Peru, and other Latin American countries have adopted the model.
 
-Even though Caltech is small, I am happy to say that the community has rallied
-and we are active participants, contributors and planners with *Clubes*. Below
-are some of the activities that I've had the pleasure of participating in. I
-would like to share these experiences and ideas with you in the hopes that maybe
-one day you will also apply!
+Caltech has been an active participant in *Clubes*. Below are some of the
+workshops I have been part of.
 
 ## Foldscopes come to *Clubes*
 Last year at ASCB 2016, I ambushed
@@ -36,9 +30,8 @@ the idea, and together with
 [Maxwell Coyle and Honomi Ijima](https://www.foldscope.com/team/) we schemed
 a plan to bring Foldscopes to Clubes. Earlier this year, the team sent us more
 than 100 Foldscopes and provided training for 5 instructors who will be giving
-workshops this year! I'm looking forward to hearing what the students have to
-say about this (I will update this after the workshops happen). Thanks Manu,
-Max, Honomi and the rest of the Foldscope community for this great opportunity!
+workshops this year! Thanks to Manu, Max, Honomi, and the rest of the Foldscope
+community for this opportunity.
 
 ## Discovering a new planarian species in Guanajuato, 2016
 In 2016, I led a *Clubes de Ciencia* workshop in Guanajuato along with HHMI
@@ -60,8 +53,7 @@ undiscovered planarian species with our students. We asked the students to point
 us to places where there was good hiking and plenty of clean running water.
 Fernando, one of our students, mentioned a dam that had some amenable hiking.
 So, the following day the class set out to the dam. When we arrived, we hiked
-for no more than 20 minutes before we were (quite literally) swimming in
-planarians!!!!
+for no more than 20 minutes before we were surrounded by planarians.
 
 <img alt="Alejandro Sánchez-Alvarado examining wild planarians collected from a stream" src="https://dangeles.github.io/images/clubes_alex.jpg" width="300" height="300"> | <img alt="Clubes de Ciencia students conducting fieldwork outdoors" src="https://dangeles.github.io/images/estudiantes_en_campo.jpg" width="300" height="300">
 :-------------------------:|:-------------------------:
@@ -91,9 +83,8 @@ was scheduled
 to give a *Club*, called *Entre genes y animales* (Between genes and animals), the
 week before in Ensenada. However, Heather's instructor had to cancel last-minute.
 Since [Caltech is driving distance from Ensenada](https://www.google.com/maps/dir/California+Institute+of+Technology,+1200+East+California+Boulevard,+Pasadena,+CA+91125,+USA/Ensenada/@33.0065568,-118.5306754,8z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x80c2c4a7ea997b91:0x3499e7d01a61dd1a!2m2!1d-118.125269!2d34.1376576!1m5!1m1!1s0x80d88ef01f54b9f5:0xf360981bb676a651!2m2!1d-116.5963713!2d31.8667427),
-we decided I might as well come along and be her co-instructor for the week as
-well. Heather had planned an amazing workshop based on animal development, and
-so we drove into the sunset (ok, not quite) into Mexico.
+we decided I might as well come along as her co-instructor. Heather had planned
+a workshop on animal development, and so we drove south into Mexico.
 
 Once in Ensenada, Heather deployed an amazing Embryology course that strongly
 reminded me of a
@@ -148,7 +139,6 @@ lectured for a day and a half, it was a blast!
 
 After we left, Manuel led his students through the basics of guesstimation,
 statistical mechanics and the quantitative science of gene regulation. The
-students deeply enjoyed the course. Just recently (in 2016), Manuel has been
-receiving updates from students who have graduated and are now beginning graduate
-programs in various parts of the world! It's exciting and deeply moving to see
-this movement paying off.
+students deeply enjoyed the course. By 2016, Manuel was already receiving
+updates from students who had graduated and enrolled in graduate programs around
+the world.
