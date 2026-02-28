@@ -1,5 +1,5 @@
 title: "David Angeles-Albores, Ph.D."
-description: "Computational biologist and AI/ML consultant specializing in perturbational biology, single-cell genomics, and translational research."
+description: "Executive & Founder Scientist at The Organogenesis and Tissue Replacement Lab. Computational biologist working at the intersection of ML/AI, single-cell genomics, and tissue replacement."
 url: https://dangeles.github.io
 baseurl: ""
 lang: en
@@ -39,30 +39,24 @@ defaults:
       layout: "post"
 
 sass:
-  sass_dir: assets/styles
+  sass_dir: _sass
   style: compressed
   sourcemap: never
-  load_paths:
-    - _sass
 
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-seo-tag
 
-paginate: 6
-paginate_path: "/blog/page:num/"
+paginate: 20
+paginate_path: "/writing/page:num/"
 
 navigation:
-  - text: "Home"
-    url: "/"
-  - text: "About Me"
+  - text: "About"
     url: "/about"
-  - text: "Portfolio"
-    url: "/projects"
-  - text: "Blog"
-    url: "/blog"
-  - text: "Talks"
-    url: "/talks"
+  - text: "Research"
+    url: "/research"
+  - text: "Writing"
+    url: "/writing"
   - text: "Contact"
     url: "/contact"
