@@ -1,0 +1,130 @@
+// Site header
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: $color-bg;
+  border-bottom: 1px solid $color-divider;
+  height: $nav-height;
+  display: flex;
+  align-items: center;
+}
+
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.site-title {
+  font-family: $font-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: $color-text;
+  white-space: nowrap;
+
+  &:hover {
+    opacity: 0.65;
+  }
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: $space-md;
+
+  li a {
+    font-family: $font-sans;
+    font-size: 0.875rem;
+    text-decoration: none;
+    color: $color-muted;
+    letter-spacing: 0.03em;
+    transition: color 0.15s;
+
+    &:hover,
+    &[aria-current="page"] {
+      color: $color-text;
+    }
+  }
+}
+
+// Mobile hamburger (hidden on desktop)
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: $space-xs;
+
+  span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: $color-text;
+  }
+}
+
+@media (max-width: $bp-mobile) {
+  .nav-toggle {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: $nav-height;
+    left: 0;
+    right: 0;
+    background: $color-bg;
+    flex-direction: column;
+    gap: 0;
+    border-bottom: 1px solid $color-divider;
+    padding: $space-sm 0;
+
+    &.is-open {
+      display: flex;
+    }
+
+    li a {
+      display: block;
+      padding: $space-xs $space-sm;
+      font-size: 1rem;
+    }
+  }
+}
+
+// Site footer
+.site-footer {
+  margin-top: $space-xl;
+  padding-bottom: $space-md;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: $space-sm;
+  padding: $space-sm 0;
+}
+
+.footer-links {
+  display: flex;
+  gap: $space-md;
+
+  a {
+    font-size: 0.875rem;
+    color: $color-muted;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-text;
+    }
+  }
+}

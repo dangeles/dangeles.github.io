@@ -1,0 +1,88 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $font-size-base;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: $font-sans;
+  font-size: 1rem;
+  line-height: $line-height-base;
+  color: $color-text;
+  background-color: $color-bg;
+  margin: 0;
+  padding: 0;
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-top: $space-md;
+  margin-bottom: $space-sm;
+  color: $color-text;
+}
+
+h1 { font-size: 2.4rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.4rem; }
+h4 { font-size: 1.2rem; }
+
+p {
+  margin-top: 0;
+  margin-bottom: $space-sm;
+}
+
+a {
+  color: $color-link;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+
+  &:hover {
+    opacity: 0.65;
+  }
+}
+
+// Utility
+.content-wrap {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 0 $space-sm;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid $color-divider;
+  margin: $space-md 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+// Muted text
+.muted {
+  color: $color-muted;
+  font-size: 0.875rem;
+}
+
+// Screen-reader only
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+// Google Fonts import
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Inter:wght@400;500&family=JetBrains+Mono&display=swap');

@@ -1,27 +1,30 @@
+// Typography
+$font-serif: 'Cormorant Garamond', Georgia, serif;
+$font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+$font-mono: 'JetBrains Mono', 'Courier New', monospace;
 
-//
-// VARIABLES
-//
+$font-size-base: 18px;
+$line-height-base: 1.75;
 
 // Colors
-$blue: #4183C4;
+$color-bg: #ffffff;
+$color-text: #1a1a1a;
+$color-muted: #808285;
+$color-divider: #e8e8e8;
+$color-hero-bg: #0f0f0f;
+$color-hero-text: #ffffff;
+$color-link: #1a1a1a;
 
-// Grays
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
-$white: #fff;
+// Layout
+$max-width: 680px;
+$nav-height: 60px;
 
-// Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+// Spacing scale
+$space-xs: 0.5rem;
+$space-sm: 1rem;
+$space-md: 2rem;
+$space-lg: 4rem;
+$space-xl: 6rem;
 
-// Mobile breakpoints
-@mixin mobile {
-  @media screen and (max-width: 640px) {
-    @content;
-  }
-}
+// Breakpoints
+$bp-mobile: 640px;

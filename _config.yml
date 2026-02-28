@@ -43,6 +43,9 @@ sass:
   style: compressed
   sourcemap: never
 
+exclude:
+  - assets/styles/
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
