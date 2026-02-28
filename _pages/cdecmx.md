@@ -51,7 +51,7 @@ tiny little pieces, which the students did in short order. See below!
 <center>
 <table class="image">
 <caption align="bottom">José and Isra, <I>Clubes</I> students, in the lab.</caption>
-<tr><td><img id="photo_of_students" src="https://dangeles.github.io/images/clubes_estudiantes.jpg" width="300"></td></tr>
+<tr><td><img alt="José and Isra, Clubes de Ciencia students, working in the lab" src="https://dangeles.github.io/images/clubes_estudiantes.jpg" width="300" height="300"></td></tr>
 </table>
 </center>
 
@@ -63,7 +63,7 @@ So, the following day the class set out to the dam. When we arrived, we hiked
 for no more than 20 minutes before we were (quite literally) swimming in
 planarians!!!!
 
-<img id="Alejandro examines wild planarians" src="https://dangeles.github.io/images/clubes_alex.jpg" width="300"> | <img id="Students in the field!" src="https://dangeles.github.io/images/estudiantes_en_campo.jpg" width="300">
+<img alt="Alejandro Sánchez-Alvarado examining wild planarians collected from a stream" src="https://dangeles.github.io/images/clubes_alex.jpg" width="300" height="300"> | <img alt="Clubes de Ciencia students conducting fieldwork outdoors" src="https://dangeles.github.io/images/estudiantes_en_campo.jpg" width="300" height="300">
 :-------------------------:|:-------------------------:
 Alejandro looks at wild planarians.  |  Our students out in the field.
 
@@ -75,7 +75,7 @@ previously described! Thanks to his lab, we now have a genome and a transcriptom
 Hopefully, at some point Alejandro and his team will get around to writing a paper
 about this beautiful animal, known henceforth as *Dugesia guanajuatensis*.
 
-<img id="Alejandro and the students talk" src="https://dangeles.github.io/images/clubes_alexyestudiantes.jpg" width="300">  | <img id="D. guanajuatensis!" src="https://dangeles.github.io/images/d_guanajuatensis.JPG" width="300">
+<img alt="Alejandro and Clubes students discussing field results in the lab" src="https://dangeles.github.io/images/clubes_alexyestudiantes.jpg" width="300" height="300">  | <img alt="Dugesia guanajuatensis, a newly described planarian species discovered with students" src="https://dangeles.github.io/images/d_guanajuatensis.JPG" width="300" height="300">
 :-:|:-:
 Talking about field results.| *Dugesia guanajuatensis*
 
@@ -103,7 +103,7 @@ Our first step was to show students how to extract some DNA from strawberries.
 <center>
 <table class="image">
 <caption align="bottom">DNA extraction time!</caption>
-<tr><td><img id="A student extracting DNA" src="https://dangeles.github.io/images/dna_extract.jpg" width="300"></td></tr>
+<tr><td><img alt="A student extracting DNA from strawberries during the Ensenada workshop" src="https://dangeles.github.io/images/dna_extract.jpg" width="300" height="300"></td></tr>
 </table>
 </center>
 
@@ -114,7 +114,7 @@ we introduced them to various embryos, including *Xenopus* gastrulating embryos,
 these animals using both their newly made microscopes or some stereomicroscopes
 that the University hosting us had kindly provided.
 
-<img id="Aurelia aurita imaged with a newly made microscope" src="https://dangeles.github.io/images/aurelia.jpg" width="300"> | <img id="Microscopy observation" src="https://dangeles.github.io/images/microscopy_at_clubes.jpg" width="300">
+<img alt="Aurelia aurita jellyfish imaged by a student using a handmade microscope" src="https://dangeles.github.io/images/aurelia.jpg" width="300" height="300"> | <img alt="Students making microscopy observations on a stereomicroscope" src="https://dangeles.github.io/images/microscopy_at_clubes.jpg" width="300" height="300">
 :----:|:------:
 *Aurelia aurita*, imaged by a student. | Observations on a stereomicroscope.
 
@@ -126,7 +126,7 @@ sea slugs, a beautiful flatworm and a lot of anemones. One of our student found
 a female crab cradling her eggs and a barnacle! We culminated our adventures with
 a photo of the group at the tide pools.
 
-<img id="A barnacle and a crab" src="https://dangeles.github.io/images/barnacle_and_crab.jpg" width="300"> | <img id="Group photo" src="https://dangeles.github.io/images/tidepool_group_photo.jpg" width="300">
+<img alt="A barnacle and a crab discovered at the Ensenada tide pools" src="https://dangeles.github.io/images/barnacle_and_crab.jpg" width="300" height="300"> | <img alt="Entre genes y animales group photo at the Ensenada tide pools" src="https://dangeles.github.io/images/tidepool_group_photo.jpg" width="300" height="300">
 :----:|:------:
 A barnacle and a crab. | *Entre genes y animales* group photo.
 
