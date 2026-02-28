@@ -1,83 +1,46 @@
 ---
 title: Home
 layout: default
-description: "David Angeles-Albores, Ph.D. -- Computational biologist and AI/ML consultant. Explore my research, portfolio, and blog."
-featured_image: /assets/img/social.jpg
+description: "David Angeles-Albores, Ph.D. — Executive & Founder Scientist at The Organogenesis and Tissue Replacement Lab."
 ---
-<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet">
-<!--Replace this page with your landing page content -->
-{% if site.data.settings.home_settings.theme == "landing" %}
-  {% include home-sample.html %}
-  <div class="features-7 fullWidth contentWrapper">
-    <div class="container mb-2">
-    <div class="row">
-        <div class="col-md-8 text-center mx-auto">
-            <h3 class="display-2">Blog</h3>
-            <p class="lead pb-5">Read some of my blog entries.</p>
-        </div>
-    </div>
-    
+
+<section class="hero">
+  <div class="hero-inner">
+    <h1 class="hero-name">David Angeles-Albores, Ph.D.</h1>
+    <p class="hero-role">Executive &amp; Founder Scientist</p>
+    <p class="hero-org">The Organogenesis and Tissue Replacement Lab</p>
+    <p class="hero-tagline">I bridge computation and biology to advance tissue replacement.</p>
+    <div class="hero-links">
+      <a href="{{ site.data.settings.social_settings.genesis_url }}" class="hero-link" target="_blank" rel="noopener">genesis.bio ↗</a>
+      <a href="{{ site.data.settings.social_settings.scholar_url }}" class="hero-link" target="_blank" rel="noopener">Google Scholar ↗</a>
     </div>
   </div>
-  {% include blogs-home.html %}
-{% endif %}
+</section>
 
-{% if site.data.settings.home_settings.theme == "blog" %}
-  <!-- Or turn your homepage into just a blog -->
-  {% if site.data.settings.blog_settings.theme == "narrow" %}
-  <div class="page-header page-header-small bg-secondary fullWidth ">
-      <div class="container contentWrapper">
-        <div class="row">
-          <div class="col-lg-10 mx-auto text-center pt-4">
-            <h2 class="display-2">Blog</h2>
-            <h2 class="lead pl-5 pr-5 pb-3 text-center">Read some of my blog entries</h2>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="home-body content-wrap">
+  <section class="home-bio">
+    <p>I trained as a molecular geneticist at Caltech and MIT, then built computational biology programs at eGenesis — contributing to the first pig-to-human kidney transplant — and led AI/ML initiatives at Altos Labs. Now I serve as Executive &amp; Founder Scientist at <a href="{{ site.data.settings.social_settings.genesis_url }}" target="_blank" rel="noopener">Genesis</a>, an interdisciplinary laboratory working on the biology and computation of tissue replacement. My research spans single-cell genomics, machine learning, and the experimental frameworks that connect them.</p>
+    <p class="bio-credentials muted">Ph.D. Biochemistry &amp; Molecular Biophysics, Caltech &nbsp;·&nbsp; Postdoc, MIT &nbsp;·&nbsp; eGenesis &nbsp;·&nbsp; Altos Labs</p>
+  </section>
 
-      <section class="blog main-raised">
-          {% include blogs-home.html %}  
-      </section>
-          
-  {% endif %}
+  <hr>
 
-  {% if site.data.settings.blog_settings.theme == "basic" %}
-  <div class="page-header page-header-small bg-secondary fullWidth ">
-      <div class="container contentWrapper">
-        <div class="row">
-          <div class="col-lg-10 mx-auto text-center pt-4">
-            <h2 class="display-2">Blog</h2>
-            <h2 class="lead pl-5 pr-5 pb-3 text-center">Read some of my blog entries</h2>
-          </div>
-        </div>
-      </div>
-    </div>
+  <section class="home-writing">
+    <h2>Recent writing</h2>
+    <ul class="post-list">
+      {% for post in site.posts limit:5 %}
+      <li class="post-list-item">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <span class="muted">{{ post.date | date: "%b %Y" }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+    <a href="{{ '/writing' | relative_url }}" class="all-link">All writing →</a>
+  </section>
 
-      <section class="blog mt-5">
-          {% include blogs-home.html %}  
-      </section>
-          
-  {% endif %}
+  <hr>
 
-  {% if site.data.settings.blog_settings.theme == "grid" %}
-  <div class="page-header page-header-small bg-secondary fullWidth ">
-      <div class="container contentWrapper">
-        <div class="row">
-          <div class="col-lg-10 mx-auto text-center pt-4">
-            <h2 class="display-2">Blog</h2>
-            <h2 class="lead pl-5 pr-5 pb-3 text-center">Read some of my blog entries</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-
-      <section class="blog">
-          {% include blogs-home.html %}  
-      </section>
-          
-  {% endif %}
-
-{% endif %}
-
-
+  <section class="home-contact">
+    <p>Interested in collaborating, hiring, or just getting in touch? <a href="{{ '/contact' | relative_url }}">Reach out.</a></p>
+  </section>
+</div>

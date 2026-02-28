@@ -1,1 +1,100 @@
-// Post layout styles — populated in Wave 3
+// Shared page styles
+.page-wrap,
+.post-wrap {
+  padding-top: $space-lg;
+  padding-bottom: $space-lg;
+}
+
+.page-header,
+.post-header {
+  margin-bottom: $space-md;
+}
+
+.page-title,
+.post-title {
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: $space-xs;
+
+  @media (max-width: $bp-mobile) {
+    font-size: 1.6rem;
+  }
+}
+
+.page-subtitle {
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+.post-meta {
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+// Post body content
+.post-content,
+.page-content {
+  h2 { font-size: 1.5rem; margin-top: $space-lg; }
+  h3 { font-size: 1.2rem; margin-top: $space-md; }
+
+  blockquote {
+    border-left: 3px solid $color-divider;
+    margin: $space-md 0;
+    padding: $space-xs $space-sm;
+    color: $color-muted;
+    font-style: italic;
+
+    p { margin-bottom: 0; }
+  }
+
+  ul, ol {
+    padding-left: $space-md;
+    margin-bottom: $space-sm;
+  }
+
+  li {
+    margin-bottom: 0.25rem;
+  }
+
+  img {
+    display: block;
+    margin: $space-md auto;
+    border-radius: 3px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: $space-sm;
+    font-size: 0.9rem;
+
+    th, td {
+      padding: 0.5rem $space-xs;
+      border-bottom: 1px solid $color-divider;
+      text-align: left;
+    }
+
+    th {
+      font-weight: 500;
+      color: $color-muted;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+  }
+}
+
+// Post nav
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  padding-top: $space-sm;
+
+  a {
+    text-decoration: none;
+    color: $color-muted;
+
+    &:hover { color: $color-text; }
+  }
+}

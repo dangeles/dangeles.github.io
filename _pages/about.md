@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "David Angeles-Albores"
-subtitle: A computational biologist musing about genetics and evolution using AI
+subtitle: "Executive & Founder Scientist · The Organogenesis and Tissue Replacement Lab"
 featured_image: /assets/img/sections/sf_landscape.jpeg
 permalink: /about/
 ---
@@ -9,12 +9,9 @@ permalink: /about/
 
 # A bit about me
 
-Hi! I'm a computational biologist and AI/ML consultant with a passion for translating complex biological data into actionable insights. With a unique blend of expertise in both wet-lab methodologies and quantitative analysis, I specialize in bridging the gap between experimental biology and computational modeling.
+Hi! I'm David Angeles-Albores — Executive & Founder Scientist at [Genesis](https://genesis.bio), an interdisciplinary laboratory working on the biology and computation of tissue replacement. I am a computational biologist with expertise in ML/AI and single-cell genomics, with a unique background that spans wet-lab molecular genetics and quantitative computational analysis.
 
-My unique strength lies in my ability to convey complex computational concepts in simple terms while deeply understanding the biological and computational foundations of a scientific research project. My goal as a member of your scientific team will always be to propose concrete, testable hypotheses as a result of quantitative data analyses arising from ML/AI; and to develop powerful experimental frameworks capable of generating training data for AI/ML models that maximizes their probability of generating useful answers.
-
-I'm particularly passionate about understanding gene regulation, transcriptome dynamics, and the integration of machine learning with biological data to drive innovation in healthcare and biotechnology. I have worked on a fairly wide variety of projects, and I
-particularly enjoy learning and mastering new fields.
+My goal as a scientist and leader is to bridge computation and biology: to translate complex biological data into actionable insights, and to build experimental frameworks capable of generating the training data that powers the next generation of AI/ML models in biomedicine.
 
 ### Professional Background
 
@@ -22,10 +19,11 @@ I hold a Ph.D. in Biochemistry and Molecular Biophysics from **Caltech**, follow
 
 Throughout my career, I've held pivotal roles at:
 
+- **Genesis (The Organogenesis and Tissue Replacement Lab)**: Founder and Executive & Founder Scientist. Building the computational and biological foundations of organ and tissue replacement.
 - **eGenesis**: Established the computational biology core and performed critical computational studies that enabled the first compassionate use transplantation of a pig kidney into a human patient by stabilizing gene expression levels of immunosuppressive payload genes through the design of pan-tissue, low burstiness promoters.
 - **Altos Labs**: As one of the first hires at this prestigious unicorn startup, I was a key driver and developer of multiple successful AI/ML initiatives. I led both wet-lab and computational investigations into partial reprogramming translational programs. Additionally, I organized the company's inaugural symposium, developing a matchmaking algorithm to optimize workshop assignments for over 500 participants.
 
-I currently lead a small but mighty interdisciplinary research team at a stealth biotech startup. I also run my own consulting LLC, offering services in AI/ML and computational biology.
+I currently serve as Executive & Founder Scientist at Genesis, where I lead our scientific strategy and research programs.
 
 ### My Expertise
 

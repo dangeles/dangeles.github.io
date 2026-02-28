@@ -1,0 +1,41 @@
+---
+layout: default
+title: Writing
+description: "Essays and notes by David Angeles-Albores on computational biology, machine learning, and science."
+paginate: 20
+---
+
+<div class="listing-wrap content-wrap">
+  <header class="page-header">
+    <h1 class="page-title">Writing</h1>
+    <p class="page-subtitle muted">Essays and notes on computation, biology, and science.</p>
+  </header>
+  <hr>
+
+  {% assign posts_by_year = paginator.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+  {% for year_group in posts_by_year %}
+  <section class="year-group">
+    <h2 class="year-label">{{ year_group.name }}</h2>
+    <ul class="post-list">
+      {% for post in year_group.items %}
+      <li class="post-list-item">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <span class="muted">{{ post.date | date: "%b %-d" }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+
+  {% if paginator.total_pages > 1 %}
+  <nav class="pagination muted" aria-label="Pagination">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}">← Newer</a>
+    {% endif %}
+    <span>Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}">Older →</a>
+    {% endif %}
+  </nav>
+  {% endif %}
+</div>

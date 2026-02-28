@@ -1,1 +1,86 @@
-// Homepage styles — populated in Wave 3
+.home-body {
+  padding-top: $space-lg;
+  padding-bottom: $space-lg;
+}
+
+.home-bio {
+  p {
+    font-size: 1.05rem;
+    line-height: $line-height-base;
+  }
+}
+
+.bio-credentials {
+  font-size: 0.85rem !important;
+}
+
+.home-writing {
+  h2 {
+    font-size: 1rem;
+    font-family: $font-sans;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: $color-muted;
+    margin-top: $space-md;
+    margin-bottom: $space-sm;
+  }
+}
+
+.post-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.post-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: $space-sm;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid $color-divider;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: $color-text;
+    font-size: 0.95rem;
+
+    &:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+  }
+
+  .muted {
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+}
+
+.all-link {
+  display: inline-block;
+  margin-top: $space-sm;
+  font-size: 0.875rem;
+  color: $color-muted;
+  text-decoration: none;
+
+  &:hover {
+    color: $color-text;
+  }
+}
+
+.home-contact {
+  p {
+    color: $color-muted;
+    font-size: 0.95rem;
+  }
+
+  a {
+    color: $color-text;
+  }
+}
