@@ -3,7 +3,7 @@ layout: post
 title: The cell cycle deserves all of your attention
 categories: science genetics
 author: David
-description: I have a long-standing fascination with the cell cycle, because I think it's the key to understanding cell states, cellular differentiation and reprogramming. I assisted a conference that showed further evidence (in my opinion) for such a stance.
+description: "The cell cycle may not be one program but many. Reflections on how alternative division cycles — standard, meiotic, endoreduplication, centriole multiplication — might unlock reprogramming without cancer risk."
 ---
 
 Have I told you how incredibly and absurdly obsessed I am with the cell cycle? I oscillated for a long time between thinking that the cell cycle is a trivial aspect of differentiation and growth, and thinking that it is impossible to understand animal biology without the cell cycle. Increasingly, I am convinced that a profound understanding of the cell cycle is lacking, and what we call “the cell cycle” is actually a set of cellular programs that look similar but do different things. 

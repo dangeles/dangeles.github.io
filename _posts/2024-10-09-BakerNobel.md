@@ -3,7 +3,7 @@ layout: post
 title: 2024 Nobel Prize in Chemistry goes half to David Baker
 categories: Nobel AI ML
 author: David
-description: David Baker won the Nobel today, and the news brought me back to my time in his lab. Congratulations, David!
+description: "David Baker's 2024 Nobel Prize in Chemistry — a reflection from a former Baker Lab intern who worked on protein-protein interface design and directed evolution using yeast display."
 ---
 What a day! David Baker takes half the Nobel for protein engineering! Extremely well-deserved.
 

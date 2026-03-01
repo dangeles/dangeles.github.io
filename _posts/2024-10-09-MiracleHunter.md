@@ -3,7 +3,7 @@ layout: post
 title: Miracle Hunter
 categories: ML
 author: David
-description: A short anecdote I wrote for a storytelling slam
+description: "A personal essay on finding wonder in biology: why scientific mistakes are miracles, and how studying irregularity became a calling."
 featured_image: /assets/img/pages/miracle_hunter.jpeg
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: Generalization is Hard
 categories: AI biotech
 author: David
-description: I have been thinking a lot about generalization in AI, and why it is so hard. 
+description: "Why ML models fail to generalize in biology — and what airline safety and taxi apps teach us about controlling variation rather than solving it."
 ---
 
 I am currently traveling through Southeast Asia, a region entirely new to me. Navigating certain situations has been unexpectedly challenging. Do I pay at the beginning or the end of a taxi ride? Have we agreed on a price? Is tipping customary?

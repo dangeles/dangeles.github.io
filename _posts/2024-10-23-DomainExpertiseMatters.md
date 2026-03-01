@@ -3,7 +3,7 @@ layout: post
 title: Domain expertise matters, especially in fields that want to use AI
 categories: AI biotech
 author: David
-description: There seems to be this feeling in Silicon Valley that you can just throw a bunch of MLEs at a biology problem and it will get solved. I argue that this is a mistake.
+description: "Why the Silicon Valley playbook — hire more MLEs — fails in biology. Domain expertise shapes the problem formulation that makes AI work; without it, no algorithm will save you."
 ---
 
 Domain-expertise matters. 

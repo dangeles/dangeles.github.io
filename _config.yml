@@ -64,6 +64,8 @@ navigation:
     url: "/about"
   - text: "Research"
     url: "/research"
+  - text: "Publications"
+    url: "/publications"
   - text: "Writing"
     url: "/writing"
   - text: "Contact"
