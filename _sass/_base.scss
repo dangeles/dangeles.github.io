@@ -37,6 +37,10 @@ p {
   margin-bottom: $space-sm;
 }
 
+// Restore italic/bold lost to Meyer reset's `font: inherit` on em/strong
+em, i { font-style: italic; }
+strong, b { font-weight: bold; }
+
 a {
   color: $color-link;
   text-decoration: underline;
