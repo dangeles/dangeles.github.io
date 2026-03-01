@@ -7,7 +7,7 @@ permalink: /contact/
 
 <div>
 
-<p>I'm always happy to hear from researchers, collaborators, founders, and students. Fill in the form below or find me through the links at the bottom of this page.</p>
+<p>I'm interested in hearing from scientists, founders, and engineers working at the edges of biology — and from students figuring out how to get there.</p>
 
 {% include contact-form.html %}
 
