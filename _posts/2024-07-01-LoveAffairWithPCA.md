@@ -3,7 +3,7 @@ layout: post
 title: Why I love PCA for AI
 categories: AI ML PCA 
 author: David
-description: Some thoughts on why I think linear methods like PCA are more important than ever in an ML world
+description: "In the age of LLMs and neural networks, why PCA remains indispensable — as a native framework for understanding embeddings, a benchmark for ML performance, and a tool that still outperforms deep learning on many genomic tasks."
 ---
 
 Folks who know me know that I have a love affair with PCA. Why? In the age of LLMs, neural networks and so forth, why do I insist on being in love with such a simple, linear method?

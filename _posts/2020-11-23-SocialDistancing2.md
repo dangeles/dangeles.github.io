@@ -3,7 +3,7 @@ layout: post
 title: What does it mean to socially distance PART 2
 categories: epidemiology pandemic
 author: David
-description: In this post, I set out to study at the heterogeneity in COVID infections across states in the USA. We will discover that there is lots of heterogeneity among states. 
+description: "COVID-19 infection rates vary enormously by U.S. state — a data analysis revealing that your community's transmission rate matters as much as your personal behavior."
 ---
 
 One of the things that bothered me about the previous post was that it did not

@@ -3,7 +3,7 @@ layout: post
 title: Hyperparameter tuning and ChatGPT's first failure mode!
 categories: ML
 author: David
-description: An exploration of hyperparameter tuning and prompt engineering with ChatGPT
+description: "Tuning a neural network from 94% to 98% accuracy — and discovering ChatGPT's first failure mode when it could not fix a simple bug that zero-shot prompt engineering ultimately resolved."
 ---
 
 In the previous post, we used ChatGPT to build a toy neural network model that classifies diagnostic aspirates into 'Malignant' or 'Benign' diagnoses. That toy model worked really well, being able to classify the data with 94% accuracy with default choices of parameters. However, when we see such impressive accuracy (especially when we see such impressive accuracy), we really have to wonder if we couldn't push our performance even higher with some easy tweaks. The process of searching for these tweaks is called 'hyperparameter tuning'. 

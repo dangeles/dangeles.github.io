@@ -3,7 +3,7 @@ layout: post
 title: Is your company's computational biology deck unique?
 categories: AI ML biotech
 author: David
-description: Why do all the biotech companies have the same computational biology deck?
+description: "Every biotech computational biology deck looks identical — multimodal data, foundation models, variance explained. Why this convergence is a problem, and what a genuinely differentiated approach would look like."
 ---
 
 More and more often, I am seeing computational biology decks that worry me. Why? Because they all look identical: they propose that biology is complicated (gasp!), and they posit that to solve it we need better AI tools that make sense of data. Inevitably, these decks call for multimodal, high throughput (single cell) data, and they make calls for the development of foundation models. They end by showing promising slides where they can explain a bit of the overall variance in the data, and claim that this progress will lead to much faster advancement in drug development. 

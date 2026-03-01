@@ -3,7 +3,7 @@ layout: post
 title: Trip to the Amazon
 categories: nature travel
 author: David
-description: A brief recount of my first trip to the Amazon
+description: "Five days in the Colombian Amazon — piranha fishing, night hikes through deafening jungle, and a reminder that molecular biology is not the whole of life. A biologist's dispatch from Leticia and Puerto Nariño."
 featured_image: /assets/img/blog/2024-10-10-TripToLeticia/IMG_4187-topaz-sharpen.jpeg
 ---
 

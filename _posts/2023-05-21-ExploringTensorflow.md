@@ -3,7 +3,7 @@ layout: post
 title: A toy Neural Network and an introduction to Tensorflow
 categories: ML
 author: David
-description: I wanted to take a dive into companion coding using ChatGPT, so I asked it to help me write a blog post on an introduction to ML methods in python, specifically, I wanted to build a Neural Network using tensorflow to analyze a toy dataset (I even let Chat pick the dataset!).
+description: "Building a TensorFlow neural network to classify cancer diagnostic aspirates — a companion coding experiment with ChatGPT 4.0 on a gene expression toy dataset, achieving 94% accuracy."
 ---
 
 I'm currently exploring ChatGPT and while I'm doing this, I am revisiting common ML concepts, and exploring libraries like the tensorflow library.
