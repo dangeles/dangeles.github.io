@@ -19,4 +19,4 @@ At **eGenesis**, I established the computational biology core and designed pan-t
 
 My technical work spans perturbational genomics (Perturb-seq, single-cell RNA-seq, ATAC-seq), dimensionality reduction, mathematical biology, and Python-based data pipelines. I'm trained in experimental genetics across diverse model systems — pigs, macaques, *C. elegans*, and bacteria — and completed the MBL Embryology course at Woods Hole. This cross-scale background informs how *in vitro* models translate to *in vivo* systems.
 
-Outside of work, I'm an avid scuba diver, hiker, and traveler, and I dedicate time to mentoring graduate students from underrepresented backgrounds. Reach out via the [Contact](/contact/) page to discuss collaborations, consulting, or research.
+Reach out via the [Contact](/contact/) page to discuss collaborations, consulting, or research.
