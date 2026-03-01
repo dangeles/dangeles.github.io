@@ -7,12 +7,18 @@
 .hero-inner {
   max-width: $max-width;
   margin: 0 auto;
+  padding: 0 $space-sm;
+
+  @media (min-width: 1000px) {
+    margin-left: clamp(2rem, 18vw, 200px);
+    margin-right: auto;
+  }
 }
 
 .hero-name {
   font-family: $font-serif;
   font-size: 2.6rem;
-  font-weight: 300;
+  font-weight: 200;
   color: $color-hero-text;
   margin-top: 0;
   margin-bottom: $space-xs;

@@ -43,11 +43,11 @@ strong, b { font-weight: bold; }
 
 a {
   color: $color-link;
-  text-decoration: underline;
-  text-underline-offset: 3px;
+  text-decoration: none;
 
   &:hover {
-    opacity: 0.65;
+    text-decoration: underline;
+    text-underline-offset: 3px;
   }
 }
 
@@ -63,6 +63,11 @@ a {
   max-width: $max-width;
   margin: 0 auto;
   padding: 0 $space-sm;
+
+  @media (min-width: 1000px) {
+    margin-left: clamp(2rem, 18vw, 200px);
+    margin-right: auto;
+  }
 }
 
 hr {
@@ -96,4 +101,4 @@ img {
 }
 
 // Google Fonts import
-@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;1,400&family=Inter:ital,wght@0,400;0,500;1,400;1,500&family=JetBrains+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;1,400&family=Inter:ital,wght@0,400;0,500;1,400;1,500&family=JetBrains+Mono&display=swap');
