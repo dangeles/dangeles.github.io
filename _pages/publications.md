@@ -103,8 +103,8 @@ Albores-Saavedra J, Schwartz AM, Henson DE, Kostun L, Hart A, **Angeles-Albores 
 Layer J, Qin W, **Angeles-Albores D**, et al.
 eGenesis, 2021 · WO/2022/104155 · [Google Patents ↗](https://patents.google.com/patent/WO2022104155A1)
 
-**[Patent application — title pending public disclosure]**
-**Angeles-Albores D**, Arbelo-Gonzalez W, et al.
-Altos Labs, 2024 · PCT/US2024/054846
+**Photomics analysis of samples**
+**Angeles-Albores D**, Arbelo-Gonzalez W, Pedoia V, Riehs N
+Altos Labs, 2024 · WO/2025/101693 · [Google Patents ↗](https://patents.google.com/patent/WO2025101693A1)
 
 </div>
