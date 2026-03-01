@@ -57,7 +57,7 @@ I established the computational biology core at eGenesis and designed promoters 
 ### Transcriptomes as phenotypes
 *Caltech · MIT*
 
-My doctoral and postdoctoral research established transcriptomes — genome-wide gene expression profiles — as quantitative phenotypes in *C. elegans*. This framework, for reading biological state from gene expression rather than morphology, is the computational foundation the later work builds on.
+My doctoral and postdoctoral research established transcriptomes — genome-wide gene expression profiles — as quantitative phenotypes in *C. elegans* and bacteria. This framework, for reading biological state from gene expression rather than morphology, is the computational foundation the later work builds on.
 
 **Methods:** RNA-seq · Statistical genetics · Mathematical modeling
 
