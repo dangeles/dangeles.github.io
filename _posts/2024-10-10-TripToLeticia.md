@@ -38,34 +38,34 @@ diversity.
     <div class="glide__track" data-glide-el="track">
         <ul class="glide__slides">
         <li class="glide__slide">
-            <img src="../assets/img/blog/2024-10-10-TripToLeticia/20240705-IMG_4652.jpeg">
+            <img src="../assets/img/blog/2024-10-10-TripToLeticia/20240705-IMG_4652.jpeg" alt="Amazon rainforest landscape near Leticia, Colombia">
         </li>
         <li class="glide__slide">
-            <img src="../assets/img/blog/2024-10-10-TripToLeticia/IMG_4187-topaz-sharpen.jpeg">
+            <img src="../assets/img/blog/2024-10-10-TripToLeticia/IMG_4187-topaz-sharpen.jpeg" alt="Amazon jungle scenery during guided tour from Puerto Nariño">
         </li>
         <li class="glide__slide">
-            <img src="../assets/img/blog/2024-10-10-TripToLeticia/IMG_4197-topaz-sharpen.jpeg">
+            <img src="../assets/img/blog/2024-10-10-TripToLeticia/IMG_4197-topaz-sharpen.jpeg" alt="Dense Amazon rainforest vegetation on jungle hike">
         </li>
         <li class="glide__slide">
-            <img src="../assets/img/blog/2024-10-10-TripToLeticia/IMG_4309-topaz-sharpen.jpeg">
+            <img src="../assets/img/blog/2024-10-10-TripToLeticia/IMG_4309-topaz-sharpen.jpeg" alt="Wildlife encountered during the Amazon jungle hike">
         </li>
         <li class="glide__slide">
-            <img src="../assets/img/blog/2024-10-10-TripToLeticia/IMG_4327-topaz-sharpen-enhance-2x.png">
+            <img src="../assets/img/blog/2024-10-10-TripToLeticia/IMG_4327-topaz-sharpen-enhance-2x.png" alt="Amazon river scene near Leticia, Amazonas department">
         </li>
         <li class="glide__slide">
-            <img src="../assets/img/blog/2024-10-10-TripToLeticia/IMG_4364.jpeg">
+            <img src="../assets/img/blog/2024-10-10-TripToLeticia/IMG_4364.jpeg" alt="Night hike in the Amazon rainforest">
         </li>
         <li class="glide__slide">
-            <img src="../assets/img/blog/2024-10-10-TripToLeticia/IMG_4501.jpeg">
+            <img src="../assets/img/blog/2024-10-10-TripToLeticia/IMG_4501.jpeg" alt="Piranha fishing on the Amazon river">
         </li>
         <li class="glide__slide">
-            <img src="../assets/img/blog/2024-10-10-TripToLeticia/IMG_4718.jpg">
+            <img src="../assets/img/blog/2024-10-10-TripToLeticia/IMG_4718.jpg" alt="Amazon biodiversity — insects and wildlife on jungle trail">
         </li>
         <li class="glide__slide">
-            <img src="../assets/img/blog/2024-10-10-TripToLeticia/IMG_4739-topaz-sharpen.jpg">
+            <img src="../assets/img/blog/2024-10-10-TripToLeticia/IMG_4739-topaz-sharpen.jpg" alt="View from Puerto Nariño, a small outpost in the Colombian Amazon">
         </li>
         <li class="glide__slide">
-            <img src="../assets/img/blog/2024-10-10-TripToLeticia/IMG_4890-topaz-sharpen-faceai.jpeg">
+            <img src="../assets/img/blog/2024-10-10-TripToLeticia/IMG_4890-topaz-sharpen-faceai.jpeg" alt="Amazon river at sunset during five-day guided tour">
         </li>
         </ul>
     </div>

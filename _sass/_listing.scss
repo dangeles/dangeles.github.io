@@ -1,0 +1,35 @@
+.listing-wrap {
+  padding-top: $space-lg;
+  padding-bottom: $space-lg;
+}
+
+.year-group {
+  margin-bottom: $space-md;
+}
+
+.year-label {
+  font-family: $font-sans;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $color-muted;
+  margin-top: $space-md;
+  margin-bottom: $space-xs;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.875rem;
+  padding-top: $space-md;
+  border-top: 1px solid $color-divider;
+
+  a {
+    text-decoration: none;
+    color: $color-muted;
+
+    &:hover { color: $color-text; }
+  }
+}

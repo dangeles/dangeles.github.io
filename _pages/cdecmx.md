@@ -2,6 +2,7 @@
 layout: page
 title: Clubes de Ciencia
 permalink: /cdc.html
+description: "Science outreach by David Angeles-Albores with Clubes de Ciencia México — teaching computational biology, embryology, and quantitative methods to students across Mexico."
 ---
 
 ## Table of Contents
@@ -13,20 +14,14 @@ permalink: /cdc.html
 ## What is [*Clubes de Ciencia (CdeC)*](https://www.clubesdeciencia.mx/)?
 
 *Clubes de Ciencia*, or Science Clubs, is an educational initiative led entirely
-by graduate students. It's very simple-once a year, graduate students from around
-the world are paired with a graduate student based in Mexico to teach a week-long
-intensive workshop on a scientific subject of their choosing. What started out
-as a small number of Mexican graduate students trying to teach science in our
-home country has rapidly grown into a major initiative that offers almost 50
-workshops in 5+ cities in Mexico. Additionally, graduate students from other
-Latin American countries have adopted this model, and as a result *Clubes* is
-rapidly expanding into other countries, including Colombia and Peru.
+by graduate students. Once a year, graduate students from around the world are
+paired with a graduate student based in Mexico to teach a week-long intensive
+workshop on a scientific subject of their choosing. The initiative now offers
+almost 50 workshops in 5+ cities in Mexico, and graduate students from Colombia,
+Peru, and other Latin American countries have adopted the model.
 
-Even though Caltech is small, I am happy to say that the community has rallied
-and we are active participants, contributors and planners with *Clubes*. Below
-are some of the activities that I've had the pleasure of participating in. I
-would like to share these experiences and ideas with you in the hopes that maybe
-one day you will also apply!
+Caltech has been an active participant in *Clubes*. Below are some of the
+workshops I have been part of.
 
 ## Foldscopes come to *Clubes*
 Last year at ASCB 2016, I ambushed
@@ -36,9 +31,8 @@ the idea, and together with
 [Maxwell Coyle and Honomi Ijima](https://www.foldscope.com/team/) we schemed
 a plan to bring Foldscopes to Clubes. Earlier this year, the team sent us more
 than 100 Foldscopes and provided training for 5 instructors who will be giving
-workshops this year! I'm looking forward to hearing what the students have to
-say about this (I will update this after the workshops happen). Thanks Manu,
-Max, Honomi and the rest of the Foldscope community for this great opportunity!
+workshops this year! Thanks to Manu, Max, Honomi, and the rest of the Foldscope
+community for this opportunity.
 
 ## Discovering a new planarian species in Guanajuato, 2016
 In 2016, I led a *Clubes de Ciencia* workshop in Guanajuato along with HHMI
@@ -51,7 +45,7 @@ tiny little pieces, which the students did in short order. See below!
 <center>
 <table class="image">
 <caption align="bottom">José and Isra, <I>Clubes</I> students, in the lab.</caption>
-<tr><td><img id="photo_of_students" src="https://dangeles.github.io/images/clubes_estudiantes.jpg" width="300"></td></tr>
+<tr><td><img alt="José and Isra, Clubes de Ciencia students, working in the lab" src="https://dangeles.github.io/images/clubes_estudiantes.jpg" width="300" height="300"></td></tr>
 </table>
 </center>
 
@@ -60,10 +54,9 @@ undiscovered planarian species with our students. We asked the students to point
 us to places where there was good hiking and plenty of clean running water.
 Fernando, one of our students, mentioned a dam that had some amenable hiking.
 So, the following day the class set out to the dam. When we arrived, we hiked
-for no more than 20 minutes before we were (quite literally) swimming in
-planarians!!!!
+for no more than 20 minutes before we were surrounded by planarians.
 
-<img id="Alejandro examines wild planarians" src="https://dangeles.github.io/images/clubes_alex.jpg" width="300"> | <img id="Students in the field!" src="https://dangeles.github.io/images/estudiantes_en_campo.jpg" width="300">
+<img alt="Alejandro Sánchez-Alvarado examining wild planarians collected from a stream" src="https://dangeles.github.io/images/clubes_alex.jpg" width="300" height="300"> | <img alt="Clubes de Ciencia students conducting fieldwork outdoors" src="https://dangeles.github.io/images/estudiantes_en_campo.jpg" width="300" height="300">
 :-------------------------:|:-------------------------:
 Alejandro looks at wild planarians.  |  Our students out in the field.
 
@@ -75,7 +68,7 @@ previously described! Thanks to his lab, we now have a genome and a transcriptom
 Hopefully, at some point Alejandro and his team will get around to writing a paper
 about this beautiful animal, known henceforth as *Dugesia guanajuatensis*.
 
-<img id="Alejandro and the students talk" src="https://dangeles.github.io/images/clubes_alexyestudiantes.jpg" width="300">  | <img id="D. guanajuatensis!" src="https://dangeles.github.io/images/d_guanajuatensis.JPG" width="300">
+<img alt="Alejandro and Clubes students discussing field results in the lab" src="https://dangeles.github.io/images/clubes_alexyestudiantes.jpg" width="300" height="300">  | <img alt="Dugesia guanajuatensis, a newly described planarian species discovered with students" src="https://dangeles.github.io/images/d_guanajuatensis.JPG" width="300" height="300">
 :-:|:-:
 Talking about field results.| *Dugesia guanajuatensis*
 
@@ -91,9 +84,8 @@ was scheduled
 to give a *Club*, called *Entre genes y animales* (Between genes and animals), the
 week before in Ensenada. However, Heather's instructor had to cancel last-minute.
 Since [Caltech is driving distance from Ensenada](https://www.google.com/maps/dir/California+Institute+of+Technology,+1200+East+California+Boulevard,+Pasadena,+CA+91125,+USA/Ensenada/@33.0065568,-118.5306754,8z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x80c2c4a7ea997b91:0x3499e7d01a61dd1a!2m2!1d-118.125269!2d34.1376576!1m5!1m1!1s0x80d88ef01f54b9f5:0xf360981bb676a651!2m2!1d-116.5963713!2d31.8667427),
-we decided I might as well come along and be her co-instructor for the week as
-well. Heather had planned an amazing workshop based on animal development, and
-so we drove into the sunset (ok, not quite) into Mexico.
+we decided I might as well come along as her co-instructor. Heather had planned
+a workshop on animal development, and so we drove south into Mexico.
 
 Once in Ensenada, Heather deployed an amazing Embryology course that strongly
 reminded me of a
@@ -103,7 +95,7 @@ Our first step was to show students how to extract some DNA from strawberries.
 <center>
 <table class="image">
 <caption align="bottom">DNA extraction time!</caption>
-<tr><td><img id="A student extracting DNA" src="https://dangeles.github.io/images/dna_extract.jpg" width="300"></td></tr>
+<tr><td><img alt="A student extracting DNA from strawberries during the Ensenada workshop" src="https://dangeles.github.io/images/dna_extract.jpg" width="300" height="300"></td></tr>
 </table>
 </center>
 
@@ -114,7 +106,7 @@ we introduced them to various embryos, including *Xenopus* gastrulating embryos,
 these animals using both their newly made microscopes or some stereomicroscopes
 that the University hosting us had kindly provided.
 
-<img id="Aurelia aurita imaged with a newly made microscope" src="https://dangeles.github.io/images/aurelia.jpg" width="300"> | <img id="Microscopy observation" src="https://dangeles.github.io/images/microscopy_at_clubes.jpg" width="300">
+<img alt="Aurelia aurita jellyfish imaged by a student using a handmade microscope" src="https://dangeles.github.io/images/aurelia.jpg" width="300" height="300"> | <img alt="Students making microscopy observations on a stereomicroscope" src="https://dangeles.github.io/images/microscopy_at_clubes.jpg" width="300" height="300">
 :----:|:------:
 *Aurelia aurita*, imaged by a student. | Observations on a stereomicroscope.
 
@@ -126,7 +118,7 @@ sea slugs, a beautiful flatworm and a lot of anemones. One of our student found
 a female crab cradling her eggs and a barnacle! We culminated our adventures with
 a photo of the group at the tide pools.
 
-<img id="A barnacle and a crab" src="https://dangeles.github.io/images/barnacle_and_crab.jpg" width="300"> | <img id="Group photo" src="https://dangeles.github.io/images/tidepool_group_photo.jpg" width="300">
+<img alt="A barnacle and a crab discovered at the Ensenada tide pools" src="https://dangeles.github.io/images/barnacle_and_crab.jpg" width="300" height="300"> | <img alt="Entre genes y animales group photo at the Ensenada tide pools" src="https://dangeles.github.io/images/tidepool_group_photo.jpg" width="300" height="300">
 :----:|:------:
 A barnacle and a crab. | *Entre genes y animales* group photo.
 
@@ -148,7 +140,6 @@ lectured for a day and a half, it was a blast!
 
 After we left, Manuel led his students through the basics of guesstimation,
 statistical mechanics and the quantitative science of gene regulation. The
-students deeply enjoyed the course. Just recently (in 2016), Manuel has been
-receiving updates from students who have graduated and are now beginning graduate
-programs in various parts of the world! It's exciting and deeply moving to see
-this movement paying off.
+students deeply enjoyed the course. By 2016, Manuel was already receiving
+updates from students who had graduated and enrolled in graduate programs around
+the world.

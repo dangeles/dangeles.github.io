@@ -1,0 +1,62 @@
+.research-wrap {
+  h2 {
+    font-size: 1rem;
+    font-family: $font-sans;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: $color-muted;
+    margin-top: $space-lg;
+    margin-bottom: $space-sm;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    margin-top: $space-md;
+    margin-bottom: $space-xs;
+  }
+}
+
+.research-list,
+.talks-list {
+  p {
+    font-size: 0.95rem;
+    color: $color-text;
+    margin-bottom: $space-xs;
+  }
+
+  em {
+    color: $color-muted;
+    font-style: normal;
+    font-size: 0.875rem;
+  }
+
+  strong {
+    font-size: 0.8rem;
+    color: $color-muted;
+    font-weight: 400;
+    font-family: $font-sans;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  a {
+    font-size: 0.875rem;
+    color: $color-muted;
+
+    &:hover { color: $color-text; }
+  }
+}
+
+.talks-list {
+  list-style: none;
+  padding: 0;
+
+  li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid $color-divider;
+    font-size: 0.95rem;
+
+    &:last-child { border-bottom: none; }
+  }
+}
