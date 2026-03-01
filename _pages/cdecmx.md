@@ -65,8 +65,7 @@ morphology, movement, and regenerative abilities. After the course ended,
 Alejandro took a small number of planarians back to his laboratory for further
 study. Months later, he confirmed our suspicions: This species has never been
 previously described! Thanks to his lab, we now have a genome and a transcriptome.
-Hopefully, at some point Alejandro and his team will get around to writing a paper
-about this beautiful animal, known henceforth as *Dugesia guanajuatensis*.
+As of 2026, a formal species description has not yet been published. The genome and transcriptome remain in Alejandro's lab awaiting full characterization — a reminder that science moves at its own pace, and that a discovery made by high school students in a week-long workshop can still be awaiting its permanent record a decade later.
 
 <img alt="Alejandro and Clubes students discussing field results in the lab" src="https://dangeles.github.io/images/clubes_alexyestudiantes.jpg" width="300" height="300">  | <img alt="Dugesia guanajuatensis, a newly described planarian species discovered with students" src="https://dangeles.github.io/images/d_guanajuatensis.JPG" width="300" height="300">
 :-:|:-:

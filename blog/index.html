@@ -1,62 +1,13 @@
 ---
 layout: default
-type: blogListing
-title: Blog
-subtitle: My random thoughts on science, math, and occassionally the places and animals I encounter. 
+title: Writing
+permalink: /blog/
+sitemap: false
 ---
 
-{% if site.data.settings.blog_settings.theme == "narrow" %}
-<div class="page-header page-header-small bg-secondary fullWidth ">
-    <div class="container contentWrapper">
-      <div class="row">
-        <div class="col-lg-10 mx-auto text-center pt-4">
-          <h2 class="display-2">{{ page.title }}</h2>
-          <h2 class="lead pl-5 pr-5 pb-3 text-center">{{page.subtitle}}</h2>
-        </div>
-      </div>
-    </div>
-  </div>
+<meta http-equiv="refresh" content="0; url={{ '/writing/' | relative_url }}">
+<link rel="canonical" href="{{ '/writing/' | absolute_url }}">
 
-    <section class="blog main-raised">
-        {% include blogs.html %}  
-    </section>
-        
-{% endif %}
-
-{% if site.data.settings.blog_settings.theme == "basic" %}
-<div class="page-header page-header-small bg-secondary fullWidth ">
-    <div class="container contentWrapper">
-      <div class="row">
-        <div class="col-lg-10 mx-auto text-center pt-4">
-          <h2 class="display-2">{{ page.title }}</h2>
-          <h2 class="lead pl-5 pr-5 pb-3 text-center">{{page.subtitle}}</h2>
-        </div>
-      </div>
-    </div>
-  </div>
-
-    <section class="blog mt-5">
-        {% include blogs.html %}  
-    </section>
-        
-{% endif %}
-
-{% if site.data.settings.blog_settings.theme == "grid" %}
-<div class="page-header page-header-small bg-secondary fullWidth ">
-    <div class="container contentWrapper">
-      <div class="row">
-        <div class="col-lg-10 mx-auto text-center pt-4">
-          <h2 class="display-2">{{ page.title }}</h2>
-          <h2 class="lead pl-5 pr-5 pb-3 text-center">{{page.subtitle}}</h2>
-        </div>
-      </div>
-    </div>
-  </div>
-
-    <section class="blog">
-        {% include blogs.html %}  
-    </section>
-        
-{% endif %}
-
-
+<div class="content-wrap">
+  <p>This page has moved. <a href="{{ '/writing/' | relative_url }}">Go to Writing →</a></p>
+</div>

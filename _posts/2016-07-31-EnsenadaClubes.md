@@ -2,6 +2,7 @@
 layout: post
 title: Clubes de Ciencia MX, Ensenada Version, 2017
 categories: outreach
+description: Teaching an embryology workshop in Ensenada with Clubes de Ciencia México — bringing Xenopus embryos, handmade microscopes, and tide pool exploration to high school students.
 ---
 
 In July, Heather and I headed down to Ensenada to teach a Clubes workshop.

@@ -8,29 +8,37 @@
 
   {% seo %}
 
+  {% if page.url == "/" or page.url == "/about/" %}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "David Angeles-Albores",
-    "url": "https://dangeles.github.io",
-    "jobTitle": "Co-founder & CEO",
-    "worksFor": {
-      "@type": "Organization",
-      "name": "The Organogenesis and Tissue Replacement Lab",
-      "url": "https://genesis.bio"
-    },
-    "alumniOf": [
-      { "@type": "CollegeOrUniversity", "name": "California Institute of Technology" },
-      { "@type": "CollegeOrUniversity", "name": "Cornell University" }
-    ],
-    "sameAs": [
-      "https://github.com/dangeles",
-      "https://www.linkedin.com/in/exolivers",
-      "https://scholar.google.es/citations?hl=en&pli=1&user=03C2DtQAAAAJ"
-    ]
+    "@type": "ProfilePage",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "David Angeles-Albores",
+      "url": "https://dangeles.github.io",
+      "image": "https://dangeles.github.io/assets/img/faces/david.jpeg",
+      "jobTitle": "Co-founder & CEO",
+      "description": "Computational biologist, co-founder and CEO working at the intersection of ML/AI, single-cell genomics, and tissue replacement.",
+      "knowsAbout": ["computational genomics", "single-cell RNA-seq", "machine learning", "synthetic biology", "tissue engineering", "organogenesis"],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "The Organogenesis and Tissue Replacement Lab",
+        "url": "https://genesis.bio"
+      },
+      "alumniOf": [
+        { "@type": "CollegeOrUniversity", "name": "California Institute of Technology" },
+        { "@type": "CollegeOrUniversity", "name": "Cornell University" }
+      ],
+      "sameAs": [
+        "https://github.com/dangeles",
+        "https://www.linkedin.com/in/exolivers",
+        "https://scholar.google.es/citations?hl=en&pli=1&user=03C2DtQAAAAJ"
+      ]
+    }
   }
   </script>
+  {% endif %}
 
   {% if site.data.settings.advanced_settings.analytics_code %}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.data.settings.advanced_settings.analytics_code }}"></script>

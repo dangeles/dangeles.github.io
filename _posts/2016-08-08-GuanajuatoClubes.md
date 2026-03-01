@@ -2,6 +2,7 @@
 layout: post
 title: Guanajuato, Ciudad de las Ranas
 categories: outreach adventure
+description: Teaching C. elegans genetics and planarian biology in Guanajuato with Alejandro Sánchez-Alvarado — and accidentally discovering a new planarian species with our students.
 ---
 
 One week after we visited Ensenada, Heather and I flew to Guanajuato to teach
@@ -50,6 +51,5 @@ The visit was nothing short of magical. I think I may have forgotten a bit of
 my heart there.
 
 <center>
-<img id="Guanajuato de noche"
-src="https://dangeles.github.io/images/guanajuato_magico.jpg" width="400">
+<img alt="Guanajuato de noche — the city's colorful buildings lit up at night" src="https://dangeles.github.io/images/guanajuato_magico.jpg" width="400" height="300">
 </center>

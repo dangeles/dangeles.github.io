@@ -2,6 +2,7 @@
 layout: post
 title: On Kindness
 categories: personal life
+description: After losing everything in a traumatic event, a reflection on the unexpected kindness of strangers and what it teaches us about human connection and resilience.
 ---
 
 On September 12, 2019, I lost everything.

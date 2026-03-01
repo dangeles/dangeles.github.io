@@ -2,6 +2,7 @@
 layout: post
 title: First ever Snowhike!
 categories: adventure
+description: My first snowshoe hike on December 20th, 2020 — an unexpected winter adventure through snowy trails with a friend and a pair of oversized snowshoes.
 ---
 
 I completed my first-ever snowhike on December 20th, 2020 with my friend Katya
@@ -15,5 +16,4 @@ Incidentally, this was also Zorro's first snow-hike. He *really* enjoyed it!
 On January 9th, I went back, and completed the loop in what was my first solo
 hike of 2021. It was so much fun!
 
-<img id="View from Mt. Percival"
-src="https://dangeles.github.io/images/snowhike.JPG" width="400">
+<img alt="View from Mt. Percival on a winter snowshoe hike" src="https://dangeles.github.io/images/snowhike.JPG" width="400" height="300">

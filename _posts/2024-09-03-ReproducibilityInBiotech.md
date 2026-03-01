@@ -3,7 +3,7 @@ layout: post
 title: Reproducibility in Biotech
 categories: reproducibility biotech
 author: David
-description: Two labs have discovered a new mechanism in bacteria that allows them to synthesize a new gene from an RNA element. A gene that writes a gene. Wow.
+description: Irreproducibility at the frontier of science may signal innovation rather than failure. Reflections on why biotechs must cultivate both a tolerance for uncertainty and a systematic path toward robust scientific knowledge.
 ---
 
 I have been thinking a lot about reproducibility in science recently. Specifically, I remember one time when I told Peter Walter my research had been unable to replicate a finding. Peter told me to read his article, titled "On Reproducibility and Clocks". I tried, but was unable to find it (the URL no longer seems to exist). Peter's point was, I think, that reproducibility is hard, and often failed attempts at reproducibility often reflect that something changed between the original attempt and the replication attempt just as much as they reflect that the original finding is wrong.
