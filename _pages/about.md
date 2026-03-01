@@ -20,3 +20,8 @@ At **eGenesis**, I established the computational biology core and designed promo
 The methods are computational and experimental: single-cell genomics, perturbational screens, embryology. I'm trained across diverse model systems — pigs, macaques, *C. elegans*, and bacteria. This range — from worm to pig, bench to algorithm — is the point.
 
 Reach out via the [Contact](/contact/) page to discuss collaborations, consulting, or research.
+
+<p class="muted" style="margin-top: 2rem; font-size: 0.875rem;">
+<a href="https://scholar.google.com/citations?user=03C2DtQAAAAJ" target="_blank" rel="noopener">Google Scholar</a> &nbsp;·&nbsp;
+<a href="https://orcid.org/0000-0001-5497-8264" target="_blank" rel="noopener">ORCID 0000-0001-5497-8264</a>
+</p>
