@@ -9,7 +9,7 @@ permalink: /about/
 ---
 
 
-I'm David Angeles-Albores — Co-founder & CEO of [The Organogenesis and Tissue Replacement Lab](https://genesis.bio), a computational geneticist working on the biology and computation of tissue replacement. My background spans wet-lab molecular genetics and quantitative computational analysis, with current focus on ML/AI and single-cell genomics.
+I'm David Angeles-Albores — Co-founder & CEO of [The Organogenesis and Tissue Replacement Lab](https://genesis.bio), a computational geneticist working on the biology and computation of tissue replacement. My background spans wet-lab molecular genetics and quantitative computational analysis, with current focus on artificially guided organogenesis and bioreactor design.
 
 ## Background
 
