@@ -54,25 +54,5 @@ I established the computational biology core at eGenesis and designed promoters 
 
 </div>
 
----
-
-## Talks
-
-<div class="talks-list" markdown="1">
-
-- **Worm Meeting 2021** — [View PDF]({{ '/talks/WormMeeting2021.pdf' | relative_url }})
-- **Transcriptomes as Phenotypes** — ASBMB, May 2019 — [View PDF]({{ '/talks/20190509.ASBMB.TranscriptomesAsPhenotypes.pdf' | relative_url }})
-- **Transcriptomes as Phenotypes** — ASBMB, May 2018 — [View PDF]({{ '/talks/20180509.ASBMB.TranscriptomesAsPhenotypes.pdf' | relative_url }})
-- **Hanna H. Gray Fellowship** — HHMI — [Talk PDF]({{ '/talks/HannaHGrayTalk.pdf' | relative_url }}) · [Script PDF]({{ '/talks/HannaHGrayScript.pdf' | relative_url }})
-
-</div>
-
----
-
-## Outreach
-
-### Clubes de Ciencia México
-
-I have been an active participant, contributor, and instructor with [*Clubes de Ciencia*](https://www.clubesdeciencia.mx/), a graduate-student-led initiative that brings intensive science workshops to students across Mexico. My workshops have covered genetics, molecular biology, and evolutionary biology. I co-discovered a new planarian species — *Dugesia guanajuatensis* — with students during a 2016 workshop in Guanajuato. [Full story →]({{ '/cdc.html' | relative_url }})
 
 </div>
