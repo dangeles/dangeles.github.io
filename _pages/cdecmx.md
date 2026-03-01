@@ -2,6 +2,7 @@
 layout: page
 title: Clubes de Ciencia
 permalink: /cdc.html
+description: "Science outreach by David Angeles-Albores with Clubes de Ciencia México — teaching computational biology, embryology, and quantitative methods to students across Mexico."
 ---
 
 ## Table of Contents

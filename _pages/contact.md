@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-description: "Contact David Angeles-Albores for research collaborations, consulting opportunities, or scientific discussions."
+description: "Contact David Angeles-Albores, computational biologist and co-founder, for research collaborations, consulting on AI/ML and single-cell genomics, or scientific partnerships."
 permalink: /contact/
 ---
 
