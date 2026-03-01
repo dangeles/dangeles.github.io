@@ -2,7 +2,7 @@
 layout: page
 title: "About"
 heading: "David Angeles-Albores"
-subtitle: "Executive & Founder Scientist · The Organogenesis and Tissue Replacement Lab"
+subtitle: "Co-founder & CEO · Organogenesis"
 description: "Computational biologist and founder scientist working at the intersection of ML/AI, single-cell genomics, and tissue replacement. Ph.D. Caltech, postdoc MIT."
 featured_image: /assets/img/sections/sf_landscape.jpeg
 permalink: /about/
@@ -11,7 +11,7 @@ permalink: /about/
 
 # A bit about me
 
-I'm David Angeles-Albores — Executive & Founder Scientist at [Genesis](https://genesis.bio), working on the biology and computation of tissue replacement. My background spans wet-lab molecular genetics and quantitative computational analysis, with current focus on ML/AI and single-cell genomics.
+I'm David Angeles-Albores — Co-founder & CEO of [Organogenesis](https://genesis.bio), a computational geneticist working on the biology and computation of tissue replacement. My background spans wet-lab molecular genetics and quantitative computational analysis, with current focus on ML/AI and single-cell genomics.
 
 My goal is to bridge computation and biology: to translate complex biological data into actionable insights, and to build experimental frameworks capable of generating the training data that powers the next generation of AI/ML models in biomedicine.
 
@@ -21,7 +21,7 @@ I hold a Ph.D. in Biochemistry and Molecular Biophysics from **Caltech**, follow
 
 My industry experience includes:
 
-- **Genesis (The Organogenesis and Tissue Replacement Lab)**: Founder and Executive & Founder Scientist. Building the computational and biological foundations of organ and tissue replacement.
+- **Organogenesis**: Co-founder & CEO. Building the computational and biological foundations of organ and tissue replacement.
 - **eGenesis**: Established the computational biology core. Designed pan-tissue, low-burstiness promoters that stabilized immunosuppressive transgene expression in pigs, enabling the first compassionate-use pig-to-human kidney transplant.
 - **Altos Labs**: Early hire. Led multiple AI/ML initiatives, both wet-lab and computational investigations into partial reprogramming translational programs. Additionally, I organized the company's inaugural symposium, developing a matchmaking algorithm to optimize workshop assignments for over 500 participants.
 
