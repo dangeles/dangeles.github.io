@@ -13,6 +13,7 @@ social_settings:
   linkedin_url: "https://www.linkedin.com/in/dangelesgenetics"
   scholar_url: "https://scholar.google.es/citations?hl=en&pli=1&user=03C2DtQAAAAJ"
   genesis_url: "https://genesis.bio"
+  cv_url: "/assets/cv.pdf"
 
 advanced_settings:
   analytics_code: G-ESQ24FE2J1
