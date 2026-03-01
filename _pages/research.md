@@ -8,36 +8,49 @@ permalink: /research/
 
 <div class="research-wrap" markdown="1">
 
-## Industry Projects
+## Current Work
 
 <div class="research-list" markdown="1">
 
-### Computationally designed promoters for pig humanization
-*eGenesis*
+### Exo-organs
+*Genesis*
 
-I computationally designed promoters to drive pig pan-tissue transgene expression by identifying pan-expressed genes, generating synthetic promoters, and testing their activity. I demonstrated through experimental and computational analyses that our promoters were tissue-specific — a key finding that reframed the silencing hypothesis and contributed to the first compassionate use pig-to-human kidney transplant.
+An exo-organ is a biohybrid device — complex, solid living tissue inside hardware, performing the physiological functions of a failing organ. We are building them at Genesis.
 
-**Methods:** RNA-seq · ATAC-seq · PHASTcons
-
-<a href="https://www.nature.com/articles/s41586-023-06594-4" target="_blank" rel="noopener">Read the paper ↗</a>
+</div>
 
 ---
+
+## Previous Work
+
+<div class="research-list" markdown="1">
 
 ### Analyses of cellular programming in aging
 *Altos Labs*
 
-As Sr. Computational Scientist, I led a matrixed team of four wet-lab scientists to perform translational studies of cellular programming. I developed computational pipelines to study the mechanism of action of our molecule of interest, designed experiments to test our hypotheses, and oversaw their execution.
+I led a team of wet-lab and computational scientists studying the mechanism of action of a partial reprogramming molecule of interest — building analysis pipelines, designing experiments, and interpreting results across modalities.
 
-**Methods:** Single-cell RNA-seq · Tool development · Cross-functional leadership
+**Methods:** Single-cell RNA-seq · Perturbational genomics · Tool development
 
 ---
 
 ### Multimodal AI initiatives
 *Altos Labs*
 
-I conceptualized and led the formation of a cross-functional team to develop multimodal machine learning models. I led the team through model development, training data collection, and experimental methods.
+I assembled and led a team to develop multimodal machine learning models integrating genomics and imaging data to study biological aging.
 
-**Methods:** AI/ML development · Cross-functional leadership
+**Methods:** Multimodal ML · Genomics · Imaging
+
+---
+
+### Computationally designed promoters for pig humanization
+*eGenesis*
+
+I established the computational biology core at eGenesis and designed promoters for stable, pan-tissue transgene expression in pigs. These promoters were experimentally validated and used in the first pig-to-human kidney transplant.
+
+**Methods:** RNA-seq · ATAC-seq · PHASTcons
+
+<a href="https://www.nature.com/articles/s41586-023-06594-4" target="_blank" rel="noopener">Read the paper ↗</a>
 
 </div>
 
