@@ -3,7 +3,7 @@ layout: page
 title: "About"
 heading: "David Angeles-Albores"
 subtitle: "Co-founder & CEO · The Organogenesis and Tissue Replacement Lab"
-description: "Computational biologist and founder scientist working at the intersection of ML/AI, single-cell genomics, and tissue replacement. Ph.D. Caltech, postdoc MIT."
+description: "I build the full stack — hardware, computation, experimental biology — to grow human organs. Co-founder & CEO of Genesis. Ph.D. Caltech, postdoc MIT."
 featured_image: /assets/img/sections/sf_landscape.jpeg
 permalink: /about/
 ---

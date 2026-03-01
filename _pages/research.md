@@ -2,7 +2,7 @@
 layout: page
 title: Research
 subtitle: Selected projects, publications, and talks
-description: "Selected research projects, publications, and conference talks by David Angeles-Albores — computational biologist specializing in ML/AI, single-cell genomics, and tissue replacement."
+description: "Research by David Angeles-Albores — from transcriptomes as phenotypes to exo-organs. Current work at Genesis, previous work at Altos Labs and eGenesis."
 permalink: /research/
 ---
 
