@@ -45,6 +45,8 @@ sass:
 
 exclude:
   - assets/styles/
+  - docs/THEME-README.md
+  - docs/LICENSE
 
 plugins:
   - jekyll-paginate
