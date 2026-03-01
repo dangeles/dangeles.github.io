@@ -95,4 +95,16 @@ Albores-Saavedra J, Chable-Montero F, **Angeles-Albores D**, Schwartz A, Klimstr
 Albores-Saavedra J, Schwartz AM, Henson DE, Kostun L, Hart A, **Angeles-Albores D**, Chablé-Montero F
 *Annals of Diagnostic Pathology* 2011, 15, 93–97 · [DOI ↗](https://doi.org/10.1016/j.anndiagpath.2010.07.012)
 
+---
+
+## Patents
+
+**Cells, tissues, organs, and animals having one or more modified genes for enhanced xenograft survival and tolerance**
+Layer J, Qin W, **Angeles-Albores D**, et al.
+eGenesis, 2021 · WO/2022/104155 · [Google Patents ↗](https://patents.google.com/patent/WO2022104155A1)
+
+**[Patent application — title pending public disclosure]**
+**Angeles-Albores D**, Arbelo-Gonzalez W, et al.
+Altos Labs, 2024 · PCT/US2024/054846
+
 </div>
